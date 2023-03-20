@@ -1,4 +1,4 @@
-#Level Sketcher
+<h2>Level Sketcher</h2>
 
 Application to generate level for your favorite game genre and as per your theme.
 
