@@ -2,18 +2,22 @@
 
 Application to generate level for your favorite game genre and as per your theme.
 
-Data Set:
-https://github.com/htolani/levelSketcher/blob/main/DataSet.png
+<b>Data Set:</b>
 
-Methodology:
-https://github.com/htolani/levelSketcher/blob/main/Methodology.png
+<img src="https://github.com/htolani/levelSketcher/blob/main/DataSet.png" width="400" height="450">
 
-Pre-requisites:
+
+<b>Methodology:</b>
+
+<img src="https://github.com/htolani/levelSketcher/blob/main/Methodology.png" width="850" height="450">
+
+
+<b>Pre-requisites:</b>
 1. .NET Run Time
     Note: As per your latest version, update the version number in LevelSkecther.csproj
 
 
-Steps to run this project: 
+<b>Steps to run this project: </b>
 
 1. Clone this Repository 
 2. In the project directory, run following commands: 
