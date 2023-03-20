@@ -1,0 +1,60 @@
+<!--180-degree rotational symmetry (T).
+180-degree rotational and horizontal reflection symmetry (X).
+180-degree rotational and vertical reflection symmetry (I).-->
+
+
+<set>
+	<tiles>
+		<tile name="bath" symmetry="T" width="20"/>
+		<tile name="door" symmetry="T" width="20"/>
+		<tile name="elevatorempty" symmetry="X"/>
+		<tile name="fireplace" symmetry="X" />
+		<tile name="stairsdown" symmetry="I" width="20"/>
+		<tile name="storagebox" symmetry="I" width="20"/>
+		<tile name="clock" symmetry="I" width="20"/>
+		<tile name="fourposter" symmetry="I"/>
+		<tile name="stairsup" symmetry="I"/>
+		<tile name="washer" symmetry="I"/>
+	</tiles>
+	<neighbors>
+		<neighbor left="bath" right="door"/>
+		<neighbor left="bath 1" right="door"/>
+		<neighbor left="bath 3" right="elevatorempty"/>
+		<neighbor left="bath" right="stairsup"/>
+		<neighbor left="door" right="bath"/>
+		<neighbor left="door 1" right="stairsdown"/>
+		<neighbor left="door 3" right="stairsup"/>
+		<neighbor left="door" right="fireplace"/>
+		<neighbor left="elevatorempty" right="bath"/>
+		<neighbor left="elevatorempty" right="door"/>
+		<neighbor left="elevatorempty" right="fireplace"/>
+		<neighbor left="elevatorempty" right="stairsdown"/>
+		<neighbor left="elevatorempty" right="stairsup"/>
+		<neighbor left="elevatorempty" right="clock"/>
+		<neighbor left="elevatorempty" right="fourposter"/>
+		<neighbor left="elevatorempty" right="washer"/>
+		<neighbor left="fireplace" right="stairsdown"/>
+		<neighbor left="fireplace" right="stairsup"/>
+		<neighbor left="fireplace" right="fourposter"/>
+		<neighbor left="stairsdown 1" right="washer"/>
+		<neighbor left="stairsdown 3" right="door"/>
+		<neighbor left="storagebox" right="bath"/>
+		<neighbor left="storagebox" right="door"/>
+		<neighbor left="storagebox" right="elevatorempty"/>
+		<neighbor left="storagebox" right="fireplace"/>
+		<neighbor left="storagebox" right="stairsup"/>
+		<neighbor left="storagebox" right="stairsdown"/>
+		<neighbor left="storagebox" right="washer"/>
+		<neighbor left="storagebox 1" right="door"/>
+		<neighbor left="clock" right="stairsup"/>
+		<neighbor left="clock" right="fourposter"/>
+		<neighbor left="clock 1" right="fourposter"/>
+		<neighbor left="fourposter" right="fireplace"/>
+		<neighbor left="fourposter 1" right="door"/>
+		<neighbor left="stairsup 1" right="door"/>
+		<neighbor left="stairsup" right="fireplace"/>
+		<neighbor left="washer 1" right="stairsup"/>
+		<neighbor left="washer" right="stairsup"/>
+		<neighbor left="washer" right="stairsdown"/>
+	</neighbors>
+</set>

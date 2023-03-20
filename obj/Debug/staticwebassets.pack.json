@@ -1,0 +1,405 @@
+{
+  "Files": [
+    {
+      "Id": "/Users/harshatolani/Downloads/Winter2023/ECS289GAI/PROJECT/ProjectImplementation/LevelSketcher/wwwroot/.DS_Store",
+      "PackagePath": "staticwebassets/.DS_Store"
+    },
+    {
+      "Id": "/Users/harshatolani/Downloads/Winter2023/ECS289GAI/PROJECT/ProjectImplementation/LevelSketcher/wwwroot/css/style.css",
+      "PackagePath": "staticwebassets/css/style.css"
+    },
+    {
+      "Id": "/Users/harshatolani/Downloads/Winter2023/ECS289GAI/PROJECT/ProjectImplementation/LevelSketcher/wwwroot/css/style.css.map",
+      "PackagePath": "staticwebassets/css/style.css.map"
+    },
+    {
+      "Id": "/Users/harshatolani/Downloads/Winter2023/ECS289GAI/PROJECT/ProjectImplementation/LevelSketcher/wwwroot/images/arrow-right.png",
+      "PackagePath": "staticwebassets/images/arrow-right.png"
+    },
+    {
+      "Id": "/Users/harshatolani/Downloads/Winter2023/ECS289GAI/PROJECT/ProjectImplementation/LevelSketcher/wwwroot/images/author-sm.png",
+      "PackagePath": "staticwebassets/images/author-sm.png"
+    },
+    {
+      "Id": "/Users/harshatolani/Downloads/Winter2023/ECS289GAI/PROJECT/ProjectImplementation/LevelSketcher/wwwroot/images/author.png",
+      "PackagePath": "staticwebassets/images/author.png"
+    },
+    {
+      "Id": "/Users/harshatolani/Downloads/Winter2023/ECS289GAI/PROJECT/ProjectImplementation/LevelSketcher/wwwroot/images/chevron-down.svg",
+      "PackagePath": "staticwebassets/images/chevron-down.svg"
+    },
+    {
+      "Id": "/Users/harshatolani/Downloads/Winter2023/ECS289GAI/PROJECT/ProjectImplementation/LevelSketcher/wwwroot/images/favicon.png",
+      "PackagePath": "staticwebassets/images/favicon.png"
+    },
+    {
+      "Id": "/Users/harshatolani/Downloads/Winter2023/ECS289GAI/PROJECT/ProjectImplementation/LevelSketcher/wwwroot/images/loader.svg",
+      "PackagePath": "staticwebassets/images/loader.svg"
+    },
+    {
+      "Id": "/Users/harshatolani/Downloads/Winter2023/ECS289GAI/PROJECT/ProjectImplementation/LevelSketcher/wwwroot/images/logo.png",
+      "PackagePath": "staticwebassets/images/logo.png"
+    },
+    {
+      "Id": "/Users/harshatolani/Downloads/Winter2023/ECS289GAI/PROJECT/ProjectImplementation/LevelSketcher/wwwroot/images/post/post-lg/01.png",
+      "PackagePath": "staticwebassets/images/post/post-lg/01.png"
+    },
+    {
+      "Id": "/Users/harshatolani/Downloads/Winter2023/ECS289GAI/PROJECT/ProjectImplementation/LevelSketcher/wwwroot/images/post/post-lg/02.png",
+      "PackagePath": "staticwebassets/images/post/post-lg/02.png"
+    },
+    {
+      "Id": "/Users/harshatolani/Downloads/Winter2023/ECS289GAI/PROJECT/ProjectImplementation/LevelSketcher/wwwroot/images/post/post-lg/03.png",
+      "PackagePath": "staticwebassets/images/post/post-lg/03.png"
+    },
+    {
+      "Id": "/Users/harshatolani/Downloads/Winter2023/ECS289GAI/PROJECT/ProjectImplementation/LevelSketcher/wwwroot/images/post/post-md/01.png",
+      "PackagePath": "staticwebassets/images/post/post-md/01.png"
+    },
+    {
+      "Id": "/Users/harshatolani/Downloads/Winter2023/ECS289GAI/PROJECT/ProjectImplementation/LevelSketcher/wwwroot/images/post/post-md/02.png",
+      "PackagePath": "staticwebassets/images/post/post-md/02.png"
+    },
+    {
+      "Id": "/Users/harshatolani/Downloads/Winter2023/ECS289GAI/PROJECT/ProjectImplementation/LevelSketcher/wwwroot/images/post/post-md/03.png",
+      "PackagePath": "staticwebassets/images/post/post-md/03.png"
+    },
+    {
+      "Id": "/Users/harshatolani/Downloads/Winter2023/ECS289GAI/PROJECT/ProjectImplementation/LevelSketcher/wwwroot/images/post/post-single/01.png",
+      "PackagePath": "staticwebassets/images/post/post-single/01.png"
+    },
+    {
+      "Id": "/Users/harshatolani/Downloads/Winter2023/ECS289GAI/PROJECT/ProjectImplementation/LevelSketcher/wwwroot/images/post/post-sm/01.png",
+      "PackagePath": "staticwebassets/images/post/post-sm/01.png"
+    },
+    {
+      "Id": "/Users/harshatolani/Downloads/Winter2023/ECS289GAI/PROJECT/ProjectImplementation/LevelSketcher/wwwroot/images/post/post-sm/02.png",
+      "PackagePath": "staticwebassets/images/post/post-sm/02.png"
+    },
+    {
+      "Id": "/Users/harshatolani/Downloads/Winter2023/ECS289GAI/PROJECT/ProjectImplementation/LevelSketcher/wwwroot/images/post/post-sm/03.png",
+      "PackagePath": "staticwebassets/images/post/post-sm/03.png"
+    },
+    {
+      "Id": "/Users/harshatolani/Downloads/Winter2023/ECS289GAI/PROJECT/ProjectImplementation/LevelSketcher/wwwroot/js/script.js",
+      "PackagePath": "staticwebassets/js/script.js"
+    },
+    {
+      "Id": "/Users/harshatolani/Downloads/Winter2023/ECS289GAI/PROJECT/ProjectImplementation/LevelSketcher/wwwroot/plugins/.DS_Store",
+      "PackagePath": "staticwebassets/plugins/.DS_Store"
+    },
+    {
+      "Id": "/Users/harshatolani/Downloads/Winter2023/ECS289GAI/PROJECT/ProjectImplementation/LevelSketcher/wwwroot/plugins/bootstrap/bootstrap.min.css",
+      "PackagePath": "staticwebassets/plugins/bootstrap/bootstrap.min.css"
+    },
+    {
+      "Id": "/Users/harshatolani/Downloads/Winter2023/ECS289GAI/PROJECT/ProjectImplementation/LevelSketcher/wwwroot/plugins/bootstrap/bootstrap.min.js",
+      "PackagePath": "staticwebassets/plugins/bootstrap/bootstrap.min.js"
+    },
+    {
+      "Id": "/Users/harshatolani/Downloads/Winter2023/ECS289GAI/PROJECT/ProjectImplementation/LevelSketcher/wwwroot/plugins/fontawesome/LICENSE.txt",
+      "PackagePath": "staticwebassets/plugins/fontawesome/LICENSE.txt"
+    },
+    {
+      "Id": "/Users/harshatolani/Downloads/Winter2023/ECS289GAI/PROJECT/ProjectImplementation/LevelSketcher/wwwroot/plugins/fontawesome/css/all.css",
+      "PackagePath": "staticwebassets/plugins/fontawesome/css/all.css"
+    },
+    {
+      "Id": "/Users/harshatolani/Downloads/Winter2023/ECS289GAI/PROJECT/ProjectImplementation/LevelSketcher/wwwroot/plugins/fontawesome/css/all.min.css",
+      "PackagePath": "staticwebassets/plugins/fontawesome/css/all.min.css"
+    },
+    {
+      "Id": "/Users/harshatolani/Downloads/Winter2023/ECS289GAI/PROJECT/ProjectImplementation/LevelSketcher/wwwroot/plugins/fontawesome/css/brands.css",
+      "PackagePath": "staticwebassets/plugins/fontawesome/css/brands.css"
+    },
+    {
+      "Id": "/Users/harshatolani/Downloads/Winter2023/ECS289GAI/PROJECT/ProjectImplementation/LevelSketcher/wwwroot/plugins/fontawesome/css/brands.min.css",
+      "PackagePath": "staticwebassets/plugins/fontawesome/css/brands.min.css"
+    },
+    {
+      "Id": "/Users/harshatolani/Downloads/Winter2023/ECS289GAI/PROJECT/ProjectImplementation/LevelSketcher/wwwroot/plugins/fontawesome/css/fontawesome.css",
+      "PackagePath": "staticwebassets/plugins/fontawesome/css/fontawesome.css"
+    },
+    {
+      "Id": "/Users/harshatolani/Downloads/Winter2023/ECS289GAI/PROJECT/ProjectImplementation/LevelSketcher/wwwroot/plugins/fontawesome/css/fontawesome.min.css",
+      "PackagePath": "staticwebassets/plugins/fontawesome/css/fontawesome.min.css"
+    },
+    {
+      "Id": "/Users/harshatolani/Downloads/Winter2023/ECS289GAI/PROJECT/ProjectImplementation/LevelSketcher/wwwroot/plugins/fontawesome/css/regular.css",
+      "PackagePath": "staticwebassets/plugins/fontawesome/css/regular.css"
+    },
+    {
+      "Id": "/Users/harshatolani/Downloads/Winter2023/ECS289GAI/PROJECT/ProjectImplementation/LevelSketcher/wwwroot/plugins/fontawesome/css/regular.min.css",
+      "PackagePath": "staticwebassets/plugins/fontawesome/css/regular.min.css"
+    },
+    {
+      "Id": "/Users/harshatolani/Downloads/Winter2023/ECS289GAI/PROJECT/ProjectImplementation/LevelSketcher/wwwroot/plugins/fontawesome/css/solid.css",
+      "PackagePath": "staticwebassets/plugins/fontawesome/css/solid.css"
+    },
+    {
+      "Id": "/Users/harshatolani/Downloads/Winter2023/ECS289GAI/PROJECT/ProjectImplementation/LevelSketcher/wwwroot/plugins/fontawesome/css/solid.min.css",
+      "PackagePath": "staticwebassets/plugins/fontawesome/css/solid.min.css"
+    },
+    {
+      "Id": "/Users/harshatolani/Downloads/Winter2023/ECS289GAI/PROJECT/ProjectImplementation/LevelSketcher/wwwroot/plugins/fontawesome/css/svg-with-js.css",
+      "PackagePath": "staticwebassets/plugins/fontawesome/css/svg-with-js.css"
+    },
+    {
+      "Id": "/Users/harshatolani/Downloads/Winter2023/ECS289GAI/PROJECT/ProjectImplementation/LevelSketcher/wwwroot/plugins/fontawesome/css/svg-with-js.min.css",
+      "PackagePath": "staticwebassets/plugins/fontawesome/css/svg-with-js.min.css"
+    },
+    {
+      "Id": "/Users/harshatolani/Downloads/Winter2023/ECS289GAI/PROJECT/ProjectImplementation/LevelSketcher/wwwroot/plugins/fontawesome/css/v4-shims.css",
+      "PackagePath": "staticwebassets/plugins/fontawesome/css/v4-shims.css"
+    },
+    {
+      "Id": "/Users/harshatolani/Downloads/Winter2023/ECS289GAI/PROJECT/ProjectImplementation/LevelSketcher/wwwroot/plugins/fontawesome/css/v4-shims.min.css",
+      "PackagePath": "staticwebassets/plugins/fontawesome/css/v4-shims.min.css"
+    },
+    {
+      "Id": "/Users/harshatolani/Downloads/Winter2023/ECS289GAI/PROJECT/ProjectImplementation/LevelSketcher/wwwroot/plugins/fontawesome/js/all.js",
+      "PackagePath": "staticwebassets/plugins/fontawesome/js/all.js"
+    },
+    {
+      "Id": "/Users/harshatolani/Downloads/Winter2023/ECS289GAI/PROJECT/ProjectImplementation/LevelSketcher/wwwroot/plugins/fontawesome/js/all.min.js",
+      "PackagePath": "staticwebassets/plugins/fontawesome/js/all.min.js"
+    },
+    {
+      "Id": "/Users/harshatolani/Downloads/Winter2023/ECS289GAI/PROJECT/ProjectImplementation/LevelSketcher/wwwroot/plugins/fontawesome/js/brands.js",
+      "PackagePath": "staticwebassets/plugins/fontawesome/js/brands.js"
+    },
+    {
+      "Id": "/Users/harshatolani/Downloads/Winter2023/ECS289GAI/PROJECT/ProjectImplementation/LevelSketcher/wwwroot/plugins/fontawesome/js/brands.min.js",
+      "PackagePath": "staticwebassets/plugins/fontawesome/js/brands.min.js"
+    },
+    {
+      "Id": "/Users/harshatolani/Downloads/Winter2023/ECS289GAI/PROJECT/ProjectImplementation/LevelSketcher/wwwroot/plugins/fontawesome/js/conflict-detection.js",
+      "PackagePath": "staticwebassets/plugins/fontawesome/js/conflict-detection.js"
+    },
+    {
+      "Id": "/Users/harshatolani/Downloads/Winter2023/ECS289GAI/PROJECT/ProjectImplementation/LevelSketcher/wwwroot/plugins/fontawesome/js/conflict-detection.min.js",
+      "PackagePath": "staticwebassets/plugins/fontawesome/js/conflict-detection.min.js"
+    },
+    {
+      "Id": "/Users/harshatolani/Downloads/Winter2023/ECS289GAI/PROJECT/ProjectImplementation/LevelSketcher/wwwroot/plugins/fontawesome/js/fontawesome.js",
+      "PackagePath": "staticwebassets/plugins/fontawesome/js/fontawesome.js"
+    },
+    {
+      "Id": "/Users/harshatolani/Downloads/Winter2023/ECS289GAI/PROJECT/ProjectImplementation/LevelSketcher/wwwroot/plugins/fontawesome/js/fontawesome.min.js",
+      "PackagePath": "staticwebassets/plugins/fontawesome/js/fontawesome.min.js"
+    },
+    {
+      "Id": "/Users/harshatolani/Downloads/Winter2023/ECS289GAI/PROJECT/ProjectImplementation/LevelSketcher/wwwroot/plugins/fontawesome/js/regular.js",
+      "PackagePath": "staticwebassets/plugins/fontawesome/js/regular.js"
+    },
+    {
+      "Id": "/Users/harshatolani/Downloads/Winter2023/ECS289GAI/PROJECT/ProjectImplementation/LevelSketcher/wwwroot/plugins/fontawesome/js/regular.min.js",
+      "PackagePath": "staticwebassets/plugins/fontawesome/js/regular.min.js"
+    },
+    {
+      "Id": "/Users/harshatolani/Downloads/Winter2023/ECS289GAI/PROJECT/ProjectImplementation/LevelSketcher/wwwroot/plugins/fontawesome/js/solid.js",
+      "PackagePath": "staticwebassets/plugins/fontawesome/js/solid.js"
+    },
+    {
+      "Id": "/Users/harshatolani/Downloads/Winter2023/ECS289GAI/PROJECT/ProjectImplementation/LevelSketcher/wwwroot/plugins/fontawesome/js/solid.min.js",
+      "PackagePath": "staticwebassets/plugins/fontawesome/js/solid.min.js"
+    },
+    {
+      "Id": "/Users/harshatolani/Downloads/Winter2023/ECS289GAI/PROJECT/ProjectImplementation/LevelSketcher/wwwroot/plugins/fontawesome/js/v4-shims.js",
+      "PackagePath": "staticwebassets/plugins/fontawesome/js/v4-shims.js"
+    },
+    {
+      "Id": "/Users/harshatolani/Downloads/Winter2023/ECS289GAI/PROJECT/ProjectImplementation/LevelSketcher/wwwroot/plugins/fontawesome/js/v4-shims.min.js",
+      "PackagePath": "staticwebassets/plugins/fontawesome/js/v4-shims.min.js"
+    },
+    {
+      "Id": "/Users/harshatolani/Downloads/Winter2023/ECS289GAI/PROJECT/ProjectImplementation/LevelSketcher/wwwroot/plugins/fontawesome/less/_animated.less",
+      "PackagePath": "staticwebassets/plugins/fontawesome/less/_animated.less"
+    },
+    {
+      "Id": "/Users/harshatolani/Downloads/Winter2023/ECS289GAI/PROJECT/ProjectImplementation/LevelSketcher/wwwroot/plugins/fontawesome/less/_bordered-pulled.less",
+      "PackagePath": "staticwebassets/plugins/fontawesome/less/_bordered-pulled.less"
+    },
+    {
+      "Id": "/Users/harshatolani/Downloads/Winter2023/ECS289GAI/PROJECT/ProjectImplementation/LevelSketcher/wwwroot/plugins/fontawesome/less/_core.less",
+      "PackagePath": "staticwebassets/plugins/fontawesome/less/_core.less"
+    },
+    {
+      "Id": "/Users/harshatolani/Downloads/Winter2023/ECS289GAI/PROJECT/ProjectImplementation/LevelSketcher/wwwroot/plugins/fontawesome/less/_fixed-width.less",
+      "PackagePath": "staticwebassets/plugins/fontawesome/less/_fixed-width.less"
+    },
+    {
+      "Id": "/Users/harshatolani/Downloads/Winter2023/ECS289GAI/PROJECT/ProjectImplementation/LevelSketcher/wwwroot/plugins/fontawesome/less/_icons.less",
+      "PackagePath": "staticwebassets/plugins/fontawesome/less/_icons.less"
+    },
+    {
+      "Id": "/Users/harshatolani/Downloads/Winter2023/ECS289GAI/PROJECT/ProjectImplementation/LevelSketcher/wwwroot/plugins/fontawesome/less/_larger.less",
+      "PackagePath": "staticwebassets/plugins/fontawesome/less/_larger.less"
+    },
+    {
+      "Id": "/Users/harshatolani/Downloads/Winter2023/ECS289GAI/PROJECT/ProjectImplementation/LevelSketcher/wwwroot/plugins/fontawesome/less/_list.less",
+      "PackagePath": "staticwebassets/plugins/fontawesome/less/_list.less"
+    },
+    {
+      "Id": "/Users/harshatolani/Downloads/Winter2023/ECS289GAI/PROJECT/ProjectImplementation/LevelSketcher/wwwroot/plugins/fontawesome/less/_mixins.less",
+      "PackagePath": "staticwebassets/plugins/fontawesome/less/_mixins.less"
+    },
+    {
+      "Id": "/Users/harshatolani/Downloads/Winter2023/ECS289GAI/PROJECT/ProjectImplementation/LevelSketcher/wwwroot/plugins/fontawesome/less/_rotated-flipped.less",
+      "PackagePath": "staticwebassets/plugins/fontawesome/less/_rotated-flipped.less"
+    },
+    {
+      "Id": "/Users/harshatolani/Downloads/Winter2023/ECS289GAI/PROJECT/ProjectImplementation/LevelSketcher/wwwroot/plugins/fontawesome/less/_screen-reader.less",
+      "PackagePath": "staticwebassets/plugins/fontawesome/less/_screen-reader.less"
+    },
+    {
+      "Id": "/Users/harshatolani/Downloads/Winter2023/ECS289GAI/PROJECT/ProjectImplementation/LevelSketcher/wwwroot/plugins/fontawesome/less/_shims.less",
+      "PackagePath": "staticwebassets/plugins/fontawesome/less/_shims.less"
+    },
+    {
+      "Id": "/Users/harshatolani/Downloads/Winter2023/ECS289GAI/PROJECT/ProjectImplementation/LevelSketcher/wwwroot/plugins/fontawesome/less/_stacked.less",
+      "PackagePath": "staticwebassets/plugins/fontawesome/less/_stacked.less"
+    },
+    {
+      "Id": "/Users/harshatolani/Downloads/Winter2023/ECS289GAI/PROJECT/ProjectImplementation/LevelSketcher/wwwroot/plugins/fontawesome/less/_variables.less",
+      "PackagePath": "staticwebassets/plugins/fontawesome/less/_variables.less"
+    },
+    {
+      "Id": "/Users/harshatolani/Downloads/Winter2023/ECS289GAI/PROJECT/ProjectImplementation/LevelSketcher/wwwroot/plugins/fontawesome/less/brands.less",
+      "PackagePath": "staticwebassets/plugins/fontawesome/less/brands.less"
+    },
+    {
+      "Id": "/Users/harshatolani/Downloads/Winter2023/ECS289GAI/PROJECT/ProjectImplementation/LevelSketcher/wwwroot/plugins/fontawesome/less/fontawesome.less",
+      "PackagePath": "staticwebassets/plugins/fontawesome/less/fontawesome.less"
+    },
+    {
+      "Id": "/Users/harshatolani/Downloads/Winter2023/ECS289GAI/PROJECT/ProjectImplementation/LevelSketcher/wwwroot/plugins/fontawesome/less/regular.less",
+      "PackagePath": "staticwebassets/plugins/fontawesome/less/regular.less"
+    },
+    {
+      "Id": "/Users/harshatolani/Downloads/Winter2023/ECS289GAI/PROJECT/ProjectImplementation/LevelSketcher/wwwroot/plugins/fontawesome/less/solid.less",
+      "PackagePath": "staticwebassets/plugins/fontawesome/less/solid.less"
+    },
+    {
+      "Id": "/Users/harshatolani/Downloads/Winter2023/ECS289GAI/PROJECT/ProjectImplementation/LevelSketcher/wwwroot/plugins/fontawesome/less/v4-shims.less",
+      "PackagePath": "staticwebassets/plugins/fontawesome/less/v4-shims.less"
+    },
+    {
+      "Id": "/Users/harshatolani/Downloads/Winter2023/ECS289GAI/PROJECT/ProjectImplementation/LevelSketcher/wwwroot/plugins/fontawesome/metadata/categories.yml",
+      "PackagePath": "staticwebassets/plugins/fontawesome/metadata/categories.yml"
+    },
+    {
+      "Id": "/Users/harshatolani/Downloads/Winter2023/ECS289GAI/PROJECT/ProjectImplementation/LevelSketcher/wwwroot/plugins/fontawesome/metadata/icons.json",
+      "PackagePath": "staticwebassets/plugins/fontawesome/metadata/icons.json"
+    },
+    {
+      "Id": "/Users/harshatolani/Downloads/Winter2023/ECS289GAI/PROJECT/ProjectImplementation/LevelSketcher/wwwroot/plugins/fontawesome/metadata/icons.yml",
+      "PackagePath": "staticwebassets/plugins/fontawesome/metadata/icons.yml"
+    },
+    {
+      "Id": "/Users/harshatolani/Downloads/Winter2023/ECS289GAI/PROJECT/ProjectImplementation/LevelSketcher/wwwroot/plugins/fontawesome/metadata/shims.json",
+      "PackagePath": "staticwebassets/plugins/fontawesome/metadata/shims.json"
+    },
+    {
+      "Id": "/Users/harshatolani/Downloads/Winter2023/ECS289GAI/PROJECT/ProjectImplementation/LevelSketcher/wwwroot/plugins/fontawesome/metadata/shims.yml",
+      "PackagePath": "staticwebassets/plugins/fontawesome/metadata/shims.yml"
+    },
+    {
+      "Id": "/Users/harshatolani/Downloads/Winter2023/ECS289GAI/PROJECT/ProjectImplementation/LevelSketcher/wwwroot/plugins/fontawesome/metadata/sponsors.yml",
+      "PackagePath": "staticwebassets/plugins/fontawesome/metadata/sponsors.yml"
+    },
+    {
+      "Id": "/Users/harshatolani/Downloads/Winter2023/ECS289GAI/PROJECT/ProjectImplementation/LevelSketcher/wwwroot/plugins/fontawesome/sprites/brands.svg",
+      "PackagePath": "staticwebassets/plugins/fontawesome/sprites/brands.svg"
+    },
+    {
+      "Id": "/Users/harshatolani/Downloads/Winter2023/ECS289GAI/PROJECT/ProjectImplementation/LevelSketcher/wwwroot/plugins/fontawesome/sprites/regular.svg",
+      "PackagePath": "staticwebassets/plugins/fontawesome/sprites/regular.svg"
+    },
+    {
+      "Id": "/Users/harshatolani/Downloads/Winter2023/ECS289GAI/PROJECT/ProjectImplementation/LevelSketcher/wwwroot/plugins/fontawesome/sprites/solid.svg",
+      "PackagePath": "staticwebassets/plugins/fontawesome/sprites/solid.svg"
+    },
+    {
+      "Id": "/Users/harshatolani/Downloads/Winter2023/ECS289GAI/PROJECT/ProjectImplementation/LevelSketcher/wwwroot/plugins/fontawesome/webfonts/fa-brands-400.eot",
+      "PackagePath": "staticwebassets/plugins/fontawesome/webfonts/fa-brands-400.eot"
+    },
+    {
+      "Id": "/Users/harshatolani/Downloads/Winter2023/ECS289GAI/PROJECT/ProjectImplementation/LevelSketcher/wwwroot/plugins/fontawesome/webfonts/fa-brands-400.svg",
+      "PackagePath": "staticwebassets/plugins/fontawesome/webfonts/fa-brands-400.svg"
+    },
+    {
+      "Id": "/Users/harshatolani/Downloads/Winter2023/ECS289GAI/PROJECT/ProjectImplementation/LevelSketcher/wwwroot/plugins/fontawesome/webfonts/fa-brands-400.ttf",
+      "PackagePath": "staticwebassets/plugins/fontawesome/webfonts/fa-brands-400.ttf"
+    },
+    {
+      "Id": "/Users/harshatolani/Downloads/Winter2023/ECS289GAI/PROJECT/ProjectImplementation/LevelSketcher/wwwroot/plugins/fontawesome/webfonts/fa-brands-400.woff",
+      "PackagePath": "staticwebassets/plugins/fontawesome/webfonts/fa-brands-400.woff"
+    },
+    {
+      "Id": "/Users/harshatolani/Downloads/Winter2023/ECS289GAI/PROJECT/ProjectImplementation/LevelSketcher/wwwroot/plugins/fontawesome/webfonts/fa-brands-400.woff2",
+      "PackagePath": "staticwebassets/plugins/fontawesome/webfonts/fa-brands-400.woff2"
+    },
+    {
+      "Id": "/Users/harshatolani/Downloads/Winter2023/ECS289GAI/PROJECT/ProjectImplementation/LevelSketcher/wwwroot/plugins/fontawesome/webfonts/fa-regular-400.eot",
+      "PackagePath": "staticwebassets/plugins/fontawesome/webfonts/fa-regular-400.eot"
+    },
+    {
+      "Id": "/Users/harshatolani/Downloads/Winter2023/ECS289GAI/PROJECT/ProjectImplementation/LevelSketcher/wwwroot/plugins/fontawesome/webfonts/fa-regular-400.svg",
+      "PackagePath": "staticwebassets/plugins/fontawesome/webfonts/fa-regular-400.svg"
+    },
+    {
+      "Id": "/Users/harshatolani/Downloads/Winter2023/ECS289GAI/PROJECT/ProjectImplementation/LevelSketcher/wwwroot/plugins/fontawesome/webfonts/fa-regular-400.ttf",
+      "PackagePath": "staticwebassets/plugins/fontawesome/webfonts/fa-regular-400.ttf"
+    },
+    {
+      "Id": "/Users/harshatolani/Downloads/Winter2023/ECS289GAI/PROJECT/ProjectImplementation/LevelSketcher/wwwroot/plugins/fontawesome/webfonts/fa-regular-400.woff",
+      "PackagePath": "staticwebassets/plugins/fontawesome/webfonts/fa-regular-400.woff"
+    },
+    {
+      "Id": "/Users/harshatolani/Downloads/Winter2023/ECS289GAI/PROJECT/ProjectImplementation/LevelSketcher/wwwroot/plugins/fontawesome/webfonts/fa-regular-400.woff2",
+      "PackagePath": "staticwebassets/plugins/fontawesome/webfonts/fa-regular-400.woff2"
+    },
+    {
+      "Id": "/Users/harshatolani/Downloads/Winter2023/ECS289GAI/PROJECT/ProjectImplementation/LevelSketcher/wwwroot/plugins/fontawesome/webfonts/fa-solid-900.eot",
+      "PackagePath": "staticwebassets/plugins/fontawesome/webfonts/fa-solid-900.eot"
+    },
+    {
+      "Id": "/Users/harshatolani/Downloads/Winter2023/ECS289GAI/PROJECT/ProjectImplementation/LevelSketcher/wwwroot/plugins/fontawesome/webfonts/fa-solid-900.svg",
+      "PackagePath": "staticwebassets/plugins/fontawesome/webfonts/fa-solid-900.svg"
+    },
+    {
+      "Id": "/Users/harshatolani/Downloads/Winter2023/ECS289GAI/PROJECT/ProjectImplementation/LevelSketcher/wwwroot/plugins/fontawesome/webfonts/fa-solid-900.ttf",
+      "PackagePath": "staticwebassets/plugins/fontawesome/webfonts/fa-solid-900.ttf"
+    },
+    {
+      "Id": "/Users/harshatolani/Downloads/Winter2023/ECS289GAI/PROJECT/ProjectImplementation/LevelSketcher/wwwroot/plugins/fontawesome/webfonts/fa-solid-900.woff",
+      "PackagePath": "staticwebassets/plugins/fontawesome/webfonts/fa-solid-900.woff"
+    },
+    {
+      "Id": "/Users/harshatolani/Downloads/Winter2023/ECS289GAI/PROJECT/ProjectImplementation/LevelSketcher/wwwroot/plugins/fontawesome/webfonts/fa-solid-900.woff2",
+      "PackagePath": "staticwebassets/plugins/fontawesome/webfonts/fa-solid-900.woff2"
+    },
+    {
+      "Id": "/Users/harshatolani/Downloads/Winter2023/ECS289GAI/PROJECT/ProjectImplementation/LevelSketcher/wwwroot/plugins/jQuery/jquery.min.js",
+      "PackagePath": "staticwebassets/plugins/jQuery/jquery.min.js"
+    },
+    {
+      "Id": "obj/Debug/staticwebassets/msbuild.LevelSketcher.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/staticwebassets/msbuild.build.LevelSketcher.props",
+      "PackagePath": "build\\LevelSketcher.props"
+    },
+    {
+      "Id": "obj/Debug/staticwebassets/msbuild.buildMultiTargeting.LevelSketcher.props",
+      "PackagePath": "buildMultiTargeting\\LevelSketcher.props"
+    },
+    {
+      "Id": "obj/Debug/staticwebassets/msbuild.buildTransitive.LevelSketcher.props",
+      "PackagePath": "buildTransitive\\LevelSketcher.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

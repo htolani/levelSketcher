@@ -1,0 +1,62 @@
+@{
+    Layout="_Layout";
+}
+
+<h1>Welcome to Level Sketcher!</h1>
+
+<img src= "@Url.Content("~/genreOutput/Knots Knots 2066284521.png")" alt="IMAGES" />
+
+Select Genre:
+<select id="genreDropdown">
+    <option value="option1">Platformer</option>
+    <option value="option2">Puzzle</option>
+    <option value="option3">Rogue</option>
+</select>
+
+<div id="section1" class="section">
+  <!-- Content for Section 1 -->
+  PLATFORMER
+  <div>
+    <a href="@Url.Action("tileSetSelected", "HomeController", new { arg = "Platformer Summer" })">Summer</a>
+</div>
+</div>
+
+<div id="section2" class="section" style="display: none;">
+  <!-- Content for Section 2 -->
+  PUZZLE
+  Circuit
+</div>
+
+<div id="section3" class="section" style="display: none;">
+  <!-- Content for Section 3 -->
+  ROGUE LIKE
+  Dungeons
+</div>
+
+<form method="post" action="@Url.Action("tileSetSelected", "HomeController")">
+    <label for="tileSet">Select a tile set:</label>
+    <select id="tileSet" name="tileSet">
+        <option value="Platformer">Platformer</option>
+        <option value="Puzzle">Puzzle</option>
+        <option value="Dungeons">Dungeons</option>
+    </select>
+    <button type="submit">Submit</button>
+</form>
+
+<!--
+<table class="table small">  
+<tr>
+                <td>
+                    <label>Rogue</label> <input type="text" asp-for="tileSelected" class="form-control" />
+                </td>
+                <td style="vertical-align: bottom; horiz-align: center">  
+                
+  <button asp-controller="HomeController" asp-action="tileSetSelected" class="btn btn-dark">Dungeon</button></td>
+            </tr>
+</table>
+-->
+<!--
+<input type="button"
+         value="Dungeons"
+         onclick="location.href='<%: Url.Action("tileSetSelected", "HomeController") %>'" />
+         -->

@@ -1,0 +1,48 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Galaxy</title>
+
+    <!-- mobile responsive meta -->
+    <meta name="viewport" content="width=device-width">
+    
+    <!-- ** Plugins Needed for the Project ** -->
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="~/plugins/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="~/plugins/fontawesome/css/all.css">
+
+    <!-- Main Stylesheet --><!--Added by HARSHA "~/css/style.css"-->
+    <link rel="stylesheet" href="~/css/style.css" asp-append-version="true">
+</head>
+<body>
+    @RenderBody() <!-- Added by Harsha-->
+
+    
+    <!-- All JS Files -->
+    <script src="~/plugins/jQuery/jquery.min.js"></script>
+    <script src="~/plugins/bootstrap/bootstrap.min.js"></script>
+
+    <!-- Main Script -->
+    <script src="~/js/script.js" asp-append-version="true"></script>
+    <script>
+        console.log('in layout');
+        const dropdown = document.getElementById("myDropdown");
+    const sections = document.getElementsByClassName("section");
+
+    dropdown.addEventListener("change", () => {
+      // Hide all sections
+      for (let i = 0; i < sections.length; i++) {
+        sections[i].style.display = "none";
+      }
+
+      // Show the selected section
+      const selectedSection = document.getElementById(dropdown.value);
+      selectedSection.style.display = "block";
+    });
+
+    </script>
+</body>
+</html>
+
+<script src="~/js/jquery.min.js"></script>
+<script src="~/js/bootstrap.min.js"></script>
