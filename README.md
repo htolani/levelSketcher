@@ -2,42 +2,11 @@
 
 Application to generate level for your favorite game genre and as per your theme.
 
-Data Available:
-|---------------X--------------------------------------------|
-|    GENRE      X                     THEME                  |
-|---------------X--------------------------------------------|
-| Platformer    X   1. Summer                                |
-|               X         - Cliff                            |
-|               X         - Grass                            |
-|               X         - Road                             |
-|               X         - Water                            |
-|               X   2. Haunted                               |
-|               X         - Cliff                            |
-|               X         - Grass                            |
-|               X         - Road                             |
-|               X         - Water                            |
-|---------------X--------------------------------------------|
-| RogueLike     X   1. Summer                                |
-|               X         - Cliff                            |
-|               X         - Grass                            |
-|               X         - Road                             |
-|               X         - Water                            |
-|               X   2. Haunted                               |
-|               X         - Cliff                            |
-|               X         - Grass                            |
-|               X         - Road                             |
-|               X         - Water                            |
-|---------------X--------------------------------------------|
-| Puzzle        X   1. Circuit                               |
-|               X         - Bridge                           |
-|               X         - Block Component                  |
-|               X         - Track                            |
-|               X         - Wire                             |
-|               X   2. Knots                                 |
-|               X         - Corner                           |
-|               X         - Cross                            |
-|               X         - Line Tracks                      |
-|---------------X--------------------------------------------|
+Data Set:
+https://github.com/htolani/levelSketcher/blob/main/DataSet.png
+
+Methodology:
+https://github.com/htolani/levelSketcher/blob/main/Methodology.png
 
 Pre-requisites:
 1. .NET Run Time
