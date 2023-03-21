@@ -1,0 +1,55 @@
+<set>
+    <tiles>
+		<tile name="cliff" symmetry="T"/>
+		<tile name="coin" symmetry="L"/>
+		<tile name="wall" symmetry="X"/>
+		<tile name="water" symmetry="X"/>
+		<tile name="plant" symmetry="X"/>
+		<tile name="tree" symmetry="X"/>
+		<tile name="ladder" symmetry="I"/>
+	</tiles>
+	<neighbors>
+		<neighbor left="coin" right="cliff"/>
+        <neighbor left="coin" right="wall"/>
+        <neighbor left="coin" right="plant"/>
+        <neighbor left="coin" right="tree"/>
+        <neighbor left="coin" right="ladder"/>
+		
+        <neighbor left="coin 1" right="wall"/>
+        <neighbor left="coin 1" right="ladder"/>
+		
+        <neighbor left="coin 2" right="plant"/>
+        <neighbor left="coin 2" right="tree"/>
+        
+        <neighbor left="coin 3" right="wall"/>
+        
+        <neighbor left="wall" right="wall"/>
+        <neighbor left="wall 3" right="cliff"/>
+
+        <neighbor left="cliff 0" right="wall"/>
+        <neighbor left="cliff 1" right="tree"/>
+        <neighbor left="cliff 2" right="ladder"/>
+        <neighbor left="cliff 3" right="wall"/>
+
+        <neighbor left="water 0" right="water"/>
+        <neighbor left="water 1" right="water"/>
+        <neighbor left="water 2" right="water"/>
+        <neighbor left="water 3" right="water"/>
+        <neighbor left="water 0" right="wall"/>
+        <neighbor left="water 1" right="wall"/>
+        <neighbor left="water 3" right="cliff"/>
+
+        <neighbor left="plant 3" right="wall"/>
+        <neighbor left="plant" right="wall"/>
+        <neighbor left="plant" right="cliff"/>
+
+        <neighbor left="tree 3" right="wall"/>
+        <neighbor left="tree" right="wall"/>
+        <neighbor left="tree" right="cliff"/>
+
+        <neighbor left="ladder 3" right="wall"/>
+        <neighbor left="ladder" right="wall"/>
+	</neighbors>
+</set>
+
+

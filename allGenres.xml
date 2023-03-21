@@ -6,5 +6,6 @@
   <simpletiled name="Rooms" size="30" textOutput="True"/>
   <simpletiled name="Circles" size="24" textOutput="True"/>
   <simpletiled name="FloorPlan" size="20" textOutput="True"/>
-  <simpletiled name="Haunted" size="20" textOutput="True"/>
+  <simpletiled name="Haunted" size="34" textOutput="True"/>
+  <simpletiled name="Coins" size="34" textOutput="True"/>
 </samples>

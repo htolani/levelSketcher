@@ -15,7 +15,9 @@ public static class Program
 {
     public static void Main(string[] args)
     {
+        //String representing Regex of special characters 
         string specialChars = @"[$&+,:;=?@#|'<>.^*()%!-]";
+        //TextInfo used to captialize first letter only of a word
         TextInfo ti = CultureInfo.CurrentCulture.TextInfo;
 
         //Checking if required args are passed
@@ -24,18 +26,22 @@ public static class Program
             args[0]= args[0].ToLower();
             args[1]= args[1].ToLower();
 
+            //Maintaining Genre based theme list
             Dictionary<string, List<string>> genreTileSetCombination = new Dictionary<string, List<string>>();
-            genreTileSetCombination.Add("platformer", new List<string>{"summer", "haunted","castle"});
+            genreTileSetCombination.Add("platformer", new List<string>{"summer", "haunted","castle","coins"});
             genreTileSetCombination.Add("puzzle", new List<string>{"knots", "circuit"});
             genreTileSetCombination.Add("roguelike", new List<string>{"floorplan"});
 
+            //Checking if special characters are added in any of the args
             if (Regex.IsMatch(args[0], specialChars) || Regex.IsMatch(args[1], specialChars)) {
                 Console.WriteLine($"Argument '{ti.ToTitleCase(args[1])}' contains special characters.");
                 isAllOkay = false;
             }else if(!genreTileSetCombination.ContainsKey(args[0])){
+                //Checking if genre specified is present in the dataset
                 isAllOkay = false;
                 Console.WriteLine($"String '{args[0]}' is not in the list of genres.");
             }else if(!genreTileSetCombination[args[0]].Contains(args[1])){
+                //Checking if the theme exists for the specified genre
                 isAllOkay = false;
                 Console.WriteLine($"String '{args[1]}' is not the part of the mentioned genre.");
             }
@@ -48,11 +54,11 @@ public static class Program
             Console.WriteLine("Insufficient Arguments. 2 Arguments Required: 1) Represting Genre 2)Representing TileSet");
         }
         
-        //Added by Harsha
+        //Used for starting localhost
         //CreateHostBuilder().Build().Run();    
     }
 
-    //Added by Harsha
+    //Method to call localhost
     public static IHostBuilder CreateHostBuilder() =>
     Host.CreateDefaultBuilder()
         .ConfigureWebHostDefaults(webBuilder =>
@@ -61,15 +67,13 @@ public static class Program
             webBuilder.UseUrls("https://localhost:8080");
         });
 
-    //Added by Harsha    
+    //Method called from the Action Listener when Genre is selected     
     public static void tileSetExecution(String tileSelectedName){
            Console.WriteLine("tileSelectedName :",tileSelectedName);
     }
 
-    //Added by Harsha  
     //This function is responsible for processing selected tileset combination  
     public static void tileSpecificExecution(String genre, String tileSelected){
-        Console.WriteLine($"check '{tileSelected}' in method.");
         Stopwatch sw = Stopwatch.StartNew();
         var folder = System.IO.Directory.CreateDirectory("genreOutput");
         foreach (var file in folder.GetFiles()) file.Delete();
@@ -90,14 +94,11 @@ public static class Program
                 bool periodic = xelem.Get("periodic", false);
                 string heuristicString = xelem.Get<string>("heuristic");
                 var heuristic = heuristicString == "Scanline" ? Model.Heuristic.Scanline : (heuristicString == "MRV" ? Model.Heuristic.MRV : Model.Heuristic.Entropy);
-
-                Console.WriteLine("in simpletitled "+name);
                 
                 model = new SimpleTiledModel(xelem.Get<string>("name"), 
                 null, xelem.Get("width", size), xelem.Get("height", size), 
                 xelem.Get("periodic", false), xelem.Get("blackBackground", false), heuristic);
             
-
                 for (int i = 0; i < xelem.Get("screenshots", 2); i++)
                 {
                     for (int k = 0; k < 10; k++)
@@ -114,7 +115,7 @@ public static class Program
                                 System.IO.File.WriteAllText($"genreOutput/{name}{seed}.txt", stmodel.TextOutput());
                             break;
                         }
-                        else Console.WriteLine("CONTRADICTION");
+                        else Console.WriteLine("Found Contradiction");
                     }
                 }
             }

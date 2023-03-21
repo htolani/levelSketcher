@@ -1,8 +1,6 @@
 <!--180-degree rotational symmetry (T).
 180-degree rotational and horizontal reflection symmetry (X).
 180-degree rotational and vertical reflection symmetry (I).-->
-
-
 <set>
 	<tiles>
 		<tile name="bath" symmetry="T" width="20"/>

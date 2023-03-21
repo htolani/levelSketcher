@@ -212,3 +212,13 @@
 /Users/harshatolani/Downloads/Winter2023/ECS289GAI/PROJECT/ProjectImplementation/LevelSketcher/bin/Debug/tilesets/Haunted/stairsup.png
 /Users/harshatolani/Downloads/Winter2023/ECS289GAI/PROJECT/ProjectImplementation/LevelSketcher/bin/Debug/tilesets/Haunted/storagebox.png
 /Users/harshatolani/Downloads/Winter2023/ECS289GAI/PROJECT/ProjectImplementation/LevelSketcher/bin/Debug/tilesets/Haunted/washer.png
+/Users/harshatolani/Downloads/Winter2023/ECS289GAI/PROJECT/ProjectImplementation/LevelSketcher/bin/Debug/tilesets/Coins.xml
+/Users/harshatolani/Downloads/Winter2023/ECS289GAI/PROJECT/ProjectImplementation/LevelSketcher/bin/Debug/tilesets/Coins/.DS_Store
+/Users/harshatolani/Downloads/Winter2023/ECS289GAI/PROJECT/ProjectImplementation/LevelSketcher/bin/Debug/tilesets/Coins/cliff.png
+/Users/harshatolani/Downloads/Winter2023/ECS289GAI/PROJECT/ProjectImplementation/LevelSketcher/bin/Debug/tilesets/Coins/coin.png
+/Users/harshatolani/Downloads/Winter2023/ECS289GAI/PROJECT/ProjectImplementation/LevelSketcher/bin/Debug/tilesets/Coins/door.png
+/Users/harshatolani/Downloads/Winter2023/ECS289GAI/PROJECT/ProjectImplementation/LevelSketcher/bin/Debug/tilesets/Coins/ladder.png
+/Users/harshatolani/Downloads/Winter2023/ECS289GAI/PROJECT/ProjectImplementation/LevelSketcher/bin/Debug/tilesets/Coins/plant.png
+/Users/harshatolani/Downloads/Winter2023/ECS289GAI/PROJECT/ProjectImplementation/LevelSketcher/bin/Debug/tilesets/Coins/tree.png
+/Users/harshatolani/Downloads/Winter2023/ECS289GAI/PROJECT/ProjectImplementation/LevelSketcher/bin/Debug/tilesets/Coins/wall.png
+/Users/harshatolani/Downloads/Winter2023/ECS289GAI/PROJECT/ProjectImplementation/LevelSketcher/bin/Debug/tilesets/Coins/water.png
