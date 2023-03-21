@@ -13,7 +13,7 @@ Application to generate level for your favorite game genre and as per your theme
 <b>Data Set:</b>
 
 
-<img src="https://github.com/htolani/levelSketcher/blob/main/DataSet.png" width="400" height="450">
+<img src="https://github.com/htolani/levelSketcher/blob/main/Data_Set.png" width="400" height="450">
 
 
 <b>Pre-requisites:</b>
