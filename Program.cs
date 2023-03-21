@@ -81,14 +81,13 @@ public static class Program
                 Console.WriteLine($"Generating Level for Genre : {xelem.Get<string>("genre")}");
                 Console.WriteLine($"Generating Level for Theme : {name}");
 
-                bool isOverlapping = xelem.Name == "overlapping";
-                int size = xelem.Get("size", isOverlapping ? 48 : 24);
+                int size = xelem.Get("size", 24);
                 bool periodic = xelem.Get("periodic", false);
                 string heuristicString = xelem.Get<string>("heuristic");
                 var heuristic = heuristicString == "Scanline" ? Model.Heuristic.Scanline : (heuristicString == "MRV" ? Model.Heuristic.MRV : Model.Heuristic.Entropy);
                 
                 model = new SimpleTiledModel(xelem.Get<string>("name"), 
-                null, xelem.Get("width", size), xelem.Get("height", size), 
+                xelem.Get("width", size), xelem.Get("height", size), 
                 xelem.Get("periodic", false), xelem.Get("blackBackground", false), heuristic);
             
                 for (int i = 0; i < xelem.Get("screenshots", 2); i++)

@@ -1,63 +1,5 @@
 /Users/harshatolani/Downloads/Winter2023/ECS289GAI/PROJECT/ProjectImplementation/LevelSketcher/bin/Debug/appsettings.Development.json
 /Users/harshatolani/Downloads/Winter2023/ECS289GAI/PROJECT/ProjectImplementation/LevelSketcher/bin/Debug/appsettings.json
-/Users/harshatolani/Downloads/Winter2023/ECS289GAI/PROJECT/ProjectImplementation/LevelSketcher/bin/Debug/samples/3Bricks.png
-/Users/harshatolani/Downloads/Winter2023/ECS289GAI/PROJECT/ProjectImplementation/LevelSketcher/bin/Debug/samples/Angular.png
-/Users/harshatolani/Downloads/Winter2023/ECS289GAI/PROJECT/ProjectImplementation/LevelSketcher/bin/Debug/samples/BrownFox.png
-/Users/harshatolani/Downloads/Winter2023/ECS289GAI/PROJECT/ProjectImplementation/LevelSketcher/bin/Debug/samples/Cat.png
-/Users/harshatolani/Downloads/Winter2023/ECS289GAI/PROJECT/ProjectImplementation/LevelSketcher/bin/Debug/samples/Cats.png
-/Users/harshatolani/Downloads/Winter2023/ECS289GAI/PROJECT/ProjectImplementation/LevelSketcher/bin/Debug/samples/Cave.png
-/Users/harshatolani/Downloads/Winter2023/ECS289GAI/PROJECT/ProjectImplementation/LevelSketcher/bin/Debug/samples/Chess.png
-/Users/harshatolani/Downloads/Winter2023/ECS289GAI/PROJECT/ProjectImplementation/LevelSketcher/bin/Debug/samples/Circle.png
-/Users/harshatolani/Downloads/Winter2023/ECS289GAI/PROJECT/ProjectImplementation/LevelSketcher/bin/Debug/samples/City.png
-/Users/harshatolani/Downloads/Winter2023/ECS289GAI/PROJECT/ProjectImplementation/LevelSketcher/bin/Debug/samples/ColoredCity.png
-/Users/harshatolani/Downloads/Winter2023/ECS289GAI/PROJECT/ProjectImplementation/LevelSketcher/bin/Debug/samples/Disk.png
-/Users/harshatolani/Downloads/Winter2023/ECS289GAI/PROJECT/ProjectImplementation/LevelSketcher/bin/Debug/samples/Dungeon.png
-/Users/harshatolani/Downloads/Winter2023/ECS289GAI/PROJECT/ProjectImplementation/LevelSketcher/bin/Debug/samples/Fabric.png
-/Users/harshatolani/Downloads/Winter2023/ECS289GAI/PROJECT/ProjectImplementation/LevelSketcher/bin/Debug/samples/Flowers.png
-/Users/harshatolani/Downloads/Winter2023/ECS289GAI/PROJECT/ProjectImplementation/LevelSketcher/bin/Debug/samples/Font.png
-/Users/harshatolani/Downloads/Winter2023/ECS289GAI/PROJECT/ProjectImplementation/LevelSketcher/bin/Debug/samples/Forest.png
-/Users/harshatolani/Downloads/Winter2023/ECS289GAI/PROJECT/ProjectImplementation/LevelSketcher/bin/Debug/samples/Hogs.png
-/Users/harshatolani/Downloads/Winter2023/ECS289GAI/PROJECT/ProjectImplementation/LevelSketcher/bin/Debug/samples/Knot.png
-/Users/harshatolani/Downloads/Winter2023/ECS289GAI/PROJECT/ProjectImplementation/LevelSketcher/bin/Debug/samples/Lake.png
-/Users/harshatolani/Downloads/Winter2023/ECS289GAI/PROJECT/ProjectImplementation/LevelSketcher/bin/Debug/samples/LessRooms.png
-/Users/harshatolani/Downloads/Winter2023/ECS289GAI/PROJECT/ProjectImplementation/LevelSketcher/bin/Debug/samples/Lines.png
-/Users/harshatolani/Downloads/Winter2023/ECS289GAI/PROJECT/ProjectImplementation/LevelSketcher/bin/Debug/samples/Link.png
-/Users/harshatolani/Downloads/Winter2023/ECS289GAI/PROJECT/ProjectImplementation/LevelSketcher/bin/Debug/samples/Link2.png
-/Users/harshatolani/Downloads/Winter2023/ECS289GAI/PROJECT/ProjectImplementation/LevelSketcher/bin/Debug/samples/MagicOffice.png
-/Users/harshatolani/Downloads/Winter2023/ECS289GAI/PROJECT/ProjectImplementation/LevelSketcher/bin/Debug/samples/Maze.png
-/Users/harshatolani/Downloads/Winter2023/ECS289GAI/PROJECT/ProjectImplementation/LevelSketcher/bin/Debug/samples/Mazelike.png
-/Users/harshatolani/Downloads/Winter2023/ECS289GAI/PROJECT/ProjectImplementation/LevelSketcher/bin/Debug/samples/MoreFlowers.png
-/Users/harshatolani/Downloads/Winter2023/ECS289GAI/PROJECT/ProjectImplementation/LevelSketcher/bin/Debug/samples/Mountains.png
-/Users/harshatolani/Downloads/Winter2023/ECS289GAI/PROJECT/ProjectImplementation/LevelSketcher/bin/Debug/samples/Nested.png
-/Users/harshatolani/Downloads/Winter2023/ECS289GAI/PROJECT/ProjectImplementation/LevelSketcher/bin/Debug/samples/NotKnot.png
-/Users/harshatolani/Downloads/Winter2023/ECS289GAI/PROJECT/ProjectImplementation/LevelSketcher/bin/Debug/samples/Office.png
-/Users/harshatolani/Downloads/Winter2023/ECS289GAI/PROJECT/ProjectImplementation/LevelSketcher/bin/Debug/samples/Office2.png
-/Users/harshatolani/Downloads/Winter2023/ECS289GAI/PROJECT/ProjectImplementation/LevelSketcher/bin/Debug/samples/Paths.png
-/Users/harshatolani/Downloads/Winter2023/ECS289GAI/PROJECT/ProjectImplementation/LevelSketcher/bin/Debug/samples/Platformer.png
-/Users/harshatolani/Downloads/Winter2023/ECS289GAI/PROJECT/ProjectImplementation/LevelSketcher/bin/Debug/samples/Qud.png
-/Users/harshatolani/Downloads/Winter2023/ECS289GAI/PROJECT/ProjectImplementation/LevelSketcher/bin/Debug/samples/RedDot.png
-/Users/harshatolani/Downloads/Winter2023/ECS289GAI/PROJECT/ProjectImplementation/LevelSketcher/bin/Debug/samples/RedMaze.png
-/Users/harshatolani/Downloads/Winter2023/ECS289GAI/PROJECT/ProjectImplementation/LevelSketcher/bin/Debug/samples/Rooms.png
-/Users/harshatolani/Downloads/Winter2023/ECS289GAI/PROJECT/ProjectImplementation/LevelSketcher/bin/Debug/samples/Rule126.png
-/Users/harshatolani/Downloads/Winter2023/ECS289GAI/PROJECT/ProjectImplementation/LevelSketcher/bin/Debug/samples/Sand.png
-/Users/harshatolani/Downloads/Winter2023/ECS289GAI/PROJECT/ProjectImplementation/LevelSketcher/bin/Debug/samples/ScaledMaze.png
-/Users/harshatolani/Downloads/Winter2023/ECS289GAI/PROJECT/ProjectImplementation/LevelSketcher/bin/Debug/samples/Sewers.png
-/Users/harshatolani/Downloads/Winter2023/ECS289GAI/PROJECT/ProjectImplementation/LevelSketcher/bin/Debug/samples/SimpleKnot.png
-/Users/harshatolani/Downloads/Winter2023/ECS289GAI/PROJECT/ProjectImplementation/LevelSketcher/bin/Debug/samples/SimpleMaze.png
-/Users/harshatolani/Downloads/Winter2023/ECS289GAI/PROJECT/ProjectImplementation/LevelSketcher/bin/Debug/samples/SimpleWall.png
-/Users/harshatolani/Downloads/Winter2023/ECS289GAI/PROJECT/ProjectImplementation/LevelSketcher/bin/Debug/samples/Skew1.png
-/Users/harshatolani/Downloads/Winter2023/ECS289GAI/PROJECT/ProjectImplementation/LevelSketcher/bin/Debug/samples/Skew2.png
-/Users/harshatolani/Downloads/Winter2023/ECS289GAI/PROJECT/ProjectImplementation/LevelSketcher/bin/Debug/samples/Skyline.png
-/Users/harshatolani/Downloads/Winter2023/ECS289GAI/PROJECT/ProjectImplementation/LevelSketcher/bin/Debug/samples/Skyline2.png
-/Users/harshatolani/Downloads/Winter2023/ECS289GAI/PROJECT/ProjectImplementation/LevelSketcher/bin/Debug/samples/SmileCity.png
-/Users/harshatolani/Downloads/Winter2023/ECS289GAI/PROJECT/ProjectImplementation/LevelSketcher/bin/Debug/samples/Spirals.png
-/Users/harshatolani/Downloads/Winter2023/ECS289GAI/PROJECT/ProjectImplementation/LevelSketcher/bin/Debug/samples/Town.png
-/Users/harshatolani/Downloads/Winter2023/ECS289GAI/PROJECT/ProjectImplementation/LevelSketcher/bin/Debug/samples/TrickKnot.png
-/Users/harshatolani/Downloads/Winter2023/ECS289GAI/PROJECT/ProjectImplementation/LevelSketcher/bin/Debug/samples/Village.png
-/Users/harshatolani/Downloads/Winter2023/ECS289GAI/PROJECT/ProjectImplementation/LevelSketcher/bin/Debug/samples/Wall.png
-/Users/harshatolani/Downloads/Winter2023/ECS289GAI/PROJECT/ProjectImplementation/LevelSketcher/bin/Debug/samples/WalledDot.png
-/Users/harshatolani/Downloads/Winter2023/ECS289GAI/PROJECT/ProjectImplementation/LevelSketcher/bin/Debug/samples/Water.png
-/Users/harshatolani/Downloads/Winter2023/ECS289GAI/PROJECT/ProjectImplementation/LevelSketcher/bin/Debug/samples/Wrinkles.png
 /Users/harshatolani/Downloads/Winter2023/ECS289GAI/PROJECT/ProjectImplementation/LevelSketcher/bin/Debug/tilesets/.DS_Store
 /Users/harshatolani/Downloads/Winter2023/ECS289GAI/PROJECT/ProjectImplementation/LevelSketcher/bin/Debug/tilesets/Castle.xml
 /Users/harshatolani/Downloads/Winter2023/ECS289GAI/PROJECT/ProjectImplementation/LevelSketcher/bin/Debug/tilesets/Castle/bridge.png
@@ -222,3 +164,44 @@
 /Users/harshatolani/Downloads/Winter2023/ECS289GAI/PROJECT/ProjectImplementation/LevelSketcher/bin/Debug/tilesets/Coins/tree.png
 /Users/harshatolani/Downloads/Winter2023/ECS289GAI/PROJECT/ProjectImplementation/LevelSketcher/bin/Debug/tilesets/Coins/wall.png
 /Users/harshatolani/Downloads/Winter2023/ECS289GAI/PROJECT/ProjectImplementation/LevelSketcher/bin/Debug/tilesets/Coins/water.png
+/Users/harshatolani/Downloads/Winter2023/ECS289GAI/PROJECT/ProjectImplementation/LevelSketcher/bin/Debug/tilesets/SnowLandscapes.xml
+/Users/harshatolani/Downloads/Winter2023/ECS289GAI/PROJECT/ProjectImplementation/LevelSketcher/bin/Debug/tilesets/SnowLandscapes/broken_tower 0.png
+/Users/harshatolani/Downloads/Winter2023/ECS289GAI/PROJECT/ProjectImplementation/LevelSketcher/bin/Debug/tilesets/SnowLandscapes/cabin_snow 0.png
+/Users/harshatolani/Downloads/Winter2023/ECS289GAI/PROJECT/ProjectImplementation/LevelSketcher/bin/Debug/tilesets/SnowLandscapes/cave_exit 0.png
+/Users/harshatolani/Downloads/Winter2023/ECS289GAI/PROJECT/ProjectImplementation/LevelSketcher/bin/Debug/tilesets/SnowLandscapes/cave_exit 1.png
+/Users/harshatolani/Downloads/Winter2023/ECS289GAI/PROJECT/ProjectImplementation/LevelSketcher/bin/Debug/tilesets/SnowLandscapes/dead_tree 0.png
+/Users/harshatolani/Downloads/Winter2023/ECS289GAI/PROJECT/ProjectImplementation/LevelSketcher/bin/Debug/tilesets/SnowLandscapes/fence 0.png
+/Users/harshatolani/Downloads/Winter2023/ECS289GAI/PROJECT/ProjectImplementation/LevelSketcher/bin/Debug/tilesets/SnowLandscapes/fence 1.png
+/Users/harshatolani/Downloads/Winter2023/ECS289GAI/PROJECT/ProjectImplementation/LevelSketcher/bin/Debug/tilesets/SnowLandscapes/fire 0.png
+/Users/harshatolani/Downloads/Winter2023/ECS289GAI/PROJECT/ProjectImplementation/LevelSketcher/bin/Debug/tilesets/SnowLandscapes/ice_bridge 0.png
+/Users/harshatolani/Downloads/Winter2023/ECS289GAI/PROJECT/ProjectImplementation/LevelSketcher/bin/Debug/tilesets/SnowLandscapes/ice_bridge 1.png
+/Users/harshatolani/Downloads/Winter2023/ECS289GAI/PROJECT/ProjectImplementation/LevelSketcher/bin/Debug/tilesets/SnowLandscapes/mine_exit 0.png
+/Users/harshatolani/Downloads/Winter2023/ECS289GAI/PROJECT/ProjectImplementation/LevelSketcher/bin/Debug/tilesets/SnowLandscapes/mine_exit 1.png
+/Users/harshatolani/Downloads/Winter2023/ECS289GAI/PROJECT/ProjectImplementation/LevelSketcher/bin/Debug/tilesets/SnowLandscapes/plant 0.png
+/Users/harshatolani/Downloads/Winter2023/ECS289GAI/PROJECT/ProjectImplementation/LevelSketcher/bin/Debug/tilesets/SnowLandscapes/plant 1.png
+/Users/harshatolani/Downloads/Winter2023/ECS289GAI/PROJECT/ProjectImplementation/LevelSketcher/bin/Debug/tilesets/SnowLandscapes/plant 2.png
+/Users/harshatolani/Downloads/Winter2023/ECS289GAI/PROJECT/ProjectImplementation/LevelSketcher/bin/Debug/tilesets/SnowLandscapes/plant 3.png
+/Users/harshatolani/Downloads/Winter2023/ECS289GAI/PROJECT/ProjectImplementation/LevelSketcher/bin/Debug/tilesets/SnowLandscapes/rock_wall 0.png
+/Users/harshatolani/Downloads/Winter2023/ECS289GAI/PROJECT/ProjectImplementation/LevelSketcher/bin/Debug/tilesets/SnowLandscapes/rock_wall 1.png
+/Users/harshatolani/Downloads/Winter2023/ECS289GAI/PROJECT/ProjectImplementation/LevelSketcher/bin/Debug/tilesets/SnowLandscapes/rock_wall 2.png
+/Users/harshatolani/Downloads/Winter2023/ECS289GAI/PROJECT/ProjectImplementation/LevelSketcher/bin/Debug/tilesets/SnowLandscapes/rock_wall 3.png
+/Users/harshatolani/Downloads/Winter2023/ECS289GAI/PROJECT/ProjectImplementation/LevelSketcher/bin/Debug/tilesets/SnowLandscapes/snowman 0.png
+/Users/harshatolani/Downloads/Winter2023/ECS289GAI/PROJECT/ProjectImplementation/LevelSketcher/bin/Debug/tilesets/SnowLandscapes/snowplains_rottentower 0.png
+/Users/harshatolani/Downloads/Winter2023/ECS289GAI/PROJECT/ProjectImplementation/LevelSketcher/bin/Debug/tilesets/SnowLandscapes/snow_floor 0.png
+/Users/harshatolani/Downloads/Winter2023/ECS289GAI/PROJECT/ProjectImplementation/LevelSketcher/bin/Debug/tilesets/SnowLandscapes/snow_to_other 0.png
+/Users/harshatolani/Downloads/Winter2023/ECS289GAI/PROJECT/ProjectImplementation/LevelSketcher/bin/Debug/tilesets/SnowLandscapes/snow_to_other 1.png
+/Users/harshatolani/Downloads/Winter2023/ECS289GAI/PROJECT/ProjectImplementation/LevelSketcher/bin/Debug/tilesets/SnowLandscapes/snow_to_other 2.png
+/Users/harshatolani/Downloads/Winter2023/ECS289GAI/PROJECT/ProjectImplementation/LevelSketcher/bin/Debug/tilesets/SnowLandscapes/snow_to_other 3.png
+/Users/harshatolani/Downloads/Winter2023/ECS289GAI/PROJECT/ProjectImplementation/LevelSketcher/bin/Debug/tilesets/SnowLandscapes/snow_to_other 4.png
+/Users/harshatolani/Downloads/Winter2023/ECS289GAI/PROJECT/ProjectImplementation/LevelSketcher/bin/Debug/tilesets/SnowLandscapes/snow_to_other 5.png
+/Users/harshatolani/Downloads/Winter2023/ECS289GAI/PROJECT/ProjectImplementation/LevelSketcher/bin/Debug/tilesets/SnowLandscapes/snow_to_other 6.png
+/Users/harshatolani/Downloads/Winter2023/ECS289GAI/PROJECT/ProjectImplementation/LevelSketcher/bin/Debug/tilesets/SnowLandscapes/snow_to_other 7.png
+/Users/harshatolani/Downloads/Winter2023/ECS289GAI/PROJECT/ProjectImplementation/LevelSketcher/bin/Debug/tilesets/SnowLandscapes/temple_entrance 0.png
+/Users/harshatolani/Downloads/Winter2023/ECS289GAI/PROJECT/ProjectImplementation/LevelSketcher/bin/Debug/tilesets/SnowLandscapes/tent 0.png
+/Users/harshatolani/Downloads/Winter2023/ECS289GAI/PROJECT/ProjectImplementation/LevelSketcher/bin/Debug/tilesets/SnowLandscapes/tree_stump 0.png
+/Users/harshatolani/Downloads/Winter2023/ECS289GAI/PROJECT/ProjectImplementation/LevelSketcher/bin/Debug/tilesets/SnowLandscapes/tree_stump 1.png
+/Users/harshatolani/Downloads/Winter2023/ECS289GAI/PROJECT/ProjectImplementation/LevelSketcher/bin/Debug/tilesets/SnowLandscapes/water_wall 0.png
+/Users/harshatolani/Downloads/Winter2023/ECS289GAI/PROJECT/ProjectImplementation/LevelSketcher/bin/Debug/tilesets/SnowLandscapes/water_wall 1.png
+/Users/harshatolani/Downloads/Winter2023/ECS289GAI/PROJECT/ProjectImplementation/LevelSketcher/bin/Debug/tilesets/SnowLandscapes/water_wall 2.png
+/Users/harshatolani/Downloads/Winter2023/ECS289GAI/PROJECT/ProjectImplementation/LevelSketcher/bin/Debug/tilesets/SnowLandscapes/water_wall 3.png
+/Users/harshatolani/Downloads/Winter2023/ECS289GAI/PROJECT/ProjectImplementation/LevelSketcher/bin/Debug/tilesets/SnowLandscapes/wood 0.png

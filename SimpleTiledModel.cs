@@ -1,5 +1,7 @@
-// Copyright (C) 2016 Maxim Gumin, The MIT License (MIT)
-
+/*
+NAME: SimpleTiledModel.cs
+DESCRIPTION: This is the file where entropy based calculations are made for 
+*/
 using System;
 using System.Linq;
 using System.Xml.Linq;
@@ -11,26 +13,17 @@ class SimpleTiledModel : Model
     List<string> tilenames;
     int tilesize;
     bool blackBackground;
-    // This is a constructor for SimpleTiledModel that takes in parameters for the name of the model, 
-// the name of a subset, the width and height of the model, whether it's periodic or not, 
-// whether the background is black or not, and a heuristic object.
-// It initializes the base class with the width, height, and heuristic object.
 
-    public SimpleTiledModel(string name, string nameOfSubset, int width, int height, bool periodic, bool blackBg, Heuristic heuristic) : base(width, height, 1, periodic, heuristic)
+    // This is a constructor for SimpleTiledModel that takes in parameters for the name of the model, 
+    // the width and height of the model, whether it's periodic or not, 
+    // whether the background is black or not, and a heuristic object.
+    // It initializes the base class with the width, height, and heuristic object.
+    public SimpleTiledModel(string name, int width, int height, bool periodic, bool blackBg, Heuristic heuristic) : base(width, height, 1, periodic, heuristic)
     {
         // It also loads an XML file based on the name of the model, gets a boolean flag for whether the tiles are unique,
-        // and initializes a list of strings for a subset of tile names based on the nameOfSubset parameter.
         this.blackBackground = blackBg;
         XElement xroot = XDocument.Load($"tilesets/{name}.xml").Root;
         bool unique = xroot.Get("unique", false);
-
-        List<string> subset = null;
-        if (nameOfSubset != null)
-        {
-            XElement xsubset = xroot.Element("subsets").Elements("subset").FirstOrDefault(x => x.Get<string>("name") == nameOfSubset);
-            if (xsubset == null) Console.WriteLine($"ERROR: subset {nameOfSubset} is not found");
-            else subset = xsubset.Elements("tile").Select(x => x.Get<string>("name")).ToList();
-        }
 
         static int[] tile(Func<int, int, int> f, int size)
         {
@@ -56,9 +49,7 @@ class SimpleTiledModel : Model
         foreach (XElement xtile in xroot.Element("tiles").Elements("tile"))
         {
             string tilename = xtile.Get<string>("name");
-            // If a "subset" has been specified, the program checks if the tile's name is in the subset, and skips the tile if not.
-            if (subset != null && !subset.Contains(tilename)) continue;
-
+            
             Func<int, int> a, b;
             int cardinality;
             // The program then determines the tile's symmetry and sets some variables based on the symmetry.
@@ -190,13 +181,6 @@ foreach (XElement xneighbor in xroot.Element("neighbors").Elements("neighbor"))
 {
     string[] left = xneighbor.Get<string>("left").Split(new char[] { ' ' }, StringSplitOptions.RemoveEmptyEntries);
     string[] right = xneighbor.Get<string>("right").Split(new char[] { ' ' }, StringSplitOptions.RemoveEmptyEntries);
-
-    // Check if subset is not null and the tiles in the relationship are not in the subset.
-    if (subset != null && (!subset.Contains(left[0]) || !subset.Contains(right[0]))) 
-    {
-        // Continue to the next relationship if either tile is not in the subset.
-        continue;
-    }
 
     // Find the indices of the tiles in the action list.
     int L = action[firstOccurrence[left[0]]][left.Length == 1 ? 0 : int.Parse(left[1])];
