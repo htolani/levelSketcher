@@ -123,7 +123,7 @@ public static class Program
             Console.WriteLine($"String '{tileSelected}' is not the part of the mentioned genre.");
         }
 
-        Console.WriteLine($"Total time taken = {sw.ElapsedMilliseconds}");
+        Console.WriteLine($"Total time taken in milliseconds = {sw.ElapsedMilliseconds}");
     }
 
     //Method to call localhost 
