@@ -1,0 +1,306 @@
+<set unique="True">
+    <tiles>
+        <tile name="snow_to_other" symmetry="X"/>
+        <tile name="broken_tower" symmetry="X"/>
+        <tile name="cabin_snow" symmetry="X"/>
+        <tile name="dead_tree" symmetry="X"/>
+        <tile name="fence" symmetry="X"/>
+        <tile name="fire" symmetry="X"/>
+        <tile name="plant" symmetry="X"/>
+        <tile name="rock_wall" symmetry="T"/>
+        <tile name="snow_floor" symmetry="X"/>
+        <tile name="snowman" symmetry="X"/>
+        <tile name="snowplains_rottentower" symmetry="X"/>
+        <tile name="temple_entrance" symmetry="X"/>
+        <tile name="tent" symmetry="X"/>
+        <tile name="tree_stump" symmetry="X"/>
+        <tile name="wood" symmetry="X"/>
+        <tile name="cave_exit" symmetry="X"/>
+        <tile name="mine_exit" symmetry="X"/>
+        <tile name="water_wall" symmetry="T"/>
+        <tile name="ice_bridge" symmetry="X"/>
+    </tiles>
+    <neighbors>
+        <neighbor left="snow_to_other 1" right="snow_to_other 3"/>
+        <neighbor left="snow_to_other 1" right="snow_to_other 7"/>
+        <neighbor left="snow_to_other 1" right="snow_floor 0"/>
+        <neighbor left="snow_to_other 2" right="snow_to_other 2"/>
+        <neighbor left="snow_to_other 2" right="snow_to_other 6"/>
+        <neighbor left="snow_to_other 2" right="snow_floor 0"/>
+        <neighbor left="snow_to_other 3" right="snow_to_other 1"/>
+        <neighbor left="snow_to_other 3" right="snow_to_other 5"/>
+        <neighbor left="snow_to_other 4" right="snow_to_other 4"/>
+        <neighbor left="snow_to_other 4" right="snow_to_other 0"/>
+        <neighbor left="snow_to_other 4" right="snow_floor 0"/>
+        <neighbor left="snow_to_other 5" right="snow_to_other 3"/>
+        <neighbor left="snow_to_other 5" right="snow_to_other 7"/>
+        <neighbor left="snow_to_other 5" right="snow_floor 0"/>
+        <neighbor left="snow_to_other 6" right="snow_to_other 2"/>
+        <neighbor left="snow_to_other 6" right="snow_to_other 6"/>
+        <neighbor left="snow_to_other 6" right="snow_floor 0"/>
+        <neighbor left="snow_to_other 7" right="snow_to_other 1"/>
+        <neighbor left="snow_to_other 7" right="snow_to_other 5"/>
+        <neighbor left="snow_to_other 0" right="snow_to_other 4"/>
+        <neighbor left="snow_to_other 0" right="snow_to_other 0"/>
+        <neighbor left="snow_to_other 0" right="snow_floor 0"/>
+
+        <neighbor left="snow_floor 0" right="snow_floor 0"/>
+        <neighbor left="snow_floor 0" right="broken_tower 0"/>
+        <neighbor left="snow_floor 0" right="cabin_snow 0"/>
+        <neighbor left="snow_floor 0" right="dead_tree 0"/>
+        <neighbor left="snow_floor 0" right="fence 1"/>
+        <neighbor left="snow_floor 0" right="fence 0"/>
+        <neighbor left="snow_floor 0" right="fire 0"/>
+        <neighbor left="snow_floor 0" right="plant 1"/>
+        <neighbor left="snow_floor 0" right="plant 2"/>
+        <neighbor left="snow_floor 0" right="plant 3"/>
+        <neighbor left="snow_floor 0" right="plant 0"/>
+        <neighbor left="snow_floor 0" right="rock_wall 1"/>
+        <neighbor left="snow_floor 0" right="rock_wall 2"/>
+        <neighbor left="snow_floor 0" right="snowplains_rottentower 0"/>
+        <neighbor left="snow_floor 0" right="snowman 0"/>
+        <neighbor left="snow_floor 0" right="temple_entrance 0"/>
+        <neighbor left="snow_floor 0" right="tent 0"/>
+        <neighbor left="snow_floor 0" right="tree_stump 1"/>
+        <neighbor left="snow_floor 0" right="tree_stump 0"/>
+        <neighbor left="snow_floor 0" right="wood 0"/>
+        <neighbor left="snow_floor 0" right="cave_exit 1"/>
+        <neighbor left="snow_floor 0" right="mine_exit 1"/>
+        <neighbor left="snow_floor 0" right="water_wall 2"/>
+        <neighbor left="snow_floor 0" right="ice_bridge 1"/>
+        <neighbor left="snow_floor 0" right="ice_bridge 0"/>
+
+        <neighbor left="broken_tower 0" right="dead_tree 0 0"/>
+        <neighbor left="broken_tower 0" right="fence 1"/>
+        <neighbor left="broken_tower 0" right="fire 0"/>
+        <neighbor left="broken_tower 0" right="plant 1"/>
+        <neighbor left="broken_tower 0" right="plant 2"/>
+        <neighbor left="broken_tower 0" right="plant 3"/>
+        <neighbor left="broken_tower 0" right="plant 0"/>
+        <neighbor left="broken_tower 0" right="snow_floor 0"/>
+        <neighbor left="broken_tower 0" right="snowplains_rottentower 0"/>
+        <neighbor left="broken_tower 0" right="temple_entrance 0"/>
+        <neighbor left="broken_tower 0" right="tree_stump 1"/>
+        <neighbor left="broken_tower 0" right="ice_bridge 0"/>
+        <neighbor left="broken_tower 0" right="snow_to_other 2"/>
+        <neighbor left="broken_tower 0" right="snow_to_other 3"/>
+        <neighbor left="broken_tower 0" right="snow_to_other 6"/>
+        <neighbor left="broken_tower 0" right="snow_to_other 7"/>
+
+        <neighbor left="cabin_snow 0" right="snow_floor 0"/>
+        <neighbor left="cabin_snow 0" right="snow_to_other 1"/>
+        <neighbor left="cabin_snow 0" right="snow_to_other 2"/>
+        <neighbor left="cabin_snow 0" right="snow_to_other 3"/>
+        <neighbor left="cabin_snow 0" right="snow_to_other 4"/>
+        <neighbor left="cabin_snow 0" right="snow_to_other 5"/>
+        <neighbor left="cabin_snow 0" right="snow_to_other 6"/>
+        <neighbor left="cabin_snow 0" right="snow_to_other 7"/>
+        <neighbor left="cabin_snow 0" right="snow_to_other 0"/>
+        <neighbor left="cabin_snow 0" right="dead_tree 0"/>
+        <neighbor left="cabin_snow 0" right="fence 1"/>
+        <neighbor left="cabin_snow 0" right="fence 0"/>
+        <neighbor left="cabin_snow 0" right="fire 0"/>
+        <neighbor left="cabin_snow 0" right="plant 1"/>
+        <neighbor left="cabin_snow 0" right="plant 2"/>
+        <neighbor left="cabin_snow 0" right="plant 3"/>
+        <neighbor left="cabin_snow 0" right="plant 0"/>
+        <neighbor left="cabin_snow 0" right="snowman 0"/>
+        <neighbor left="cabin_snow 0" right="tree_stump 1"/>
+        <neighbor left="cabin_snow 0" right="tree_stump 0"/>
+        <neighbor left="cabin_snow 0" right="wood 0"/>
+        <neighbor left="cabin_snow 0" right="water_wall 2"/>
+        <neighbor left="cabin_snow 0" right="ice_bridge 0"/>
+
+        <neighbor left="fence 1" right="fence 0"/>
+        <neighbor left="fence 1" right="snow_to_other 1"/>
+        <neighbor left="fence 1" right="snow_to_other 3"/>
+        <neighbor left="fence 1" right="snow_to_other 5"/>
+        <neighbor left="fence 1" right="snow_to_other 7"/>
+        <neighbor left="fence 1" right="plant 1"/>
+        <neighbor left="fence 1" right="plant 2"/>
+        <neighbor left="fence 1" right="plant 3"/>
+        <neighbor left="fence 1" right="plant 0"/>
+        <neighbor left="fence 1" right="snow_floor 0"/>
+        <neighbor left="fence 1" right="snowman 0"/>
+        <neighbor left="fence 0" right="fence 0"/>
+        <neighbor left="fence 0" right="fence 1"/>
+        <neighbor left="fence 0" right="cabin_snow 0"/>
+        <neighbor left="fence 0" right="tent 0"/>
+        <neighbor left="fence 0" right="snowplains_rottentower 0"/>
+        <neighbor left="fence 0" right="water_wall 2"/>
+        <neighbor left="fence 0" right="rock_wall 1"/>
+        <neighbor left="fence 0" right="tree_stump 1"/>
+
+        <neighbor left="dead_tree 0" right="snow_floor 0"/>
+        <neighbor left="dead_tree 0" right="fence 1"/>
+        <neighbor left="dead_tree 0" right="snow_to_other 1"/>
+        <neighbor left="dead_tree 0" right="snow_to_other 5"/>
+        <neighbor left="dead_tree 0" right="plant 0"/>
+        <neighbor left="dead_tree 0" right="plant 1"/>
+        <neighbor left="dead_tree 0" right="plant 2"/>
+        <neighbor left="dead_tree 0" right="plant 3"/>
+        <neighbor left="dead_tree 0" right="snowplains_rottentower 0"/>
+        <neighbor left="dead_tree 0" right="temple_entrance 0"/>
+        <neighbor left="dead_tree 0" right="water_wall 2"/>
+
+        <neighbor left="fire 0" right="snow_to_other 1"/>
+        <neighbor left="fire 0" right="snow_to_other 5"/>
+        <neighbor left="fire 0" right="wood 0"/>
+
+        <neighbor left="plant" right="snow_to_other 0"/>
+        <neighbor left="plant" right="snow_to_other 1"/>
+        <neighbor left="plant" right="snow_to_other 2"/>
+        <neighbor left="plant" right="snow_to_other 4"/>
+        <neighbor left="plant" right="snow_to_other 6"/>
+        <neighbor left="plant" right="snow_to_other 5"/>
+        <neighbor left="plant" right="fence 1"/>
+        <neighbor left="plant" right="snow_floor 0"/>
+        <neighbor left="plant" right="temple_entrance 0"/>
+        <neighbor left="plant" right="tree_stump 1"/>
+        <neighbor left="plant" right="water_wall 2"/>
+        <neighbor left="plant" right="ice_bridge 1"/>
+
+        <neighbor left="rock_wall 0" right="snow_floor 0"/>
+        <neighbor left="rock_wall 0" right="tree_stump 1"/>
+        <neighbor left="rock_wall 0" right="temple_entrance 0"/>
+        <neighbor left="rock_wall 0" right="cave_exit 1"/>
+        <neighbor left="rock_wall 0" right="mine_exit 1"/>
+        <neighbor left="rock_wall 0" right="water_wall 2"/>
+        <neighbor left="rock_wall 0" right="plant 3"/>
+        <neighbor left="rock_wall 0" right="snow_to_other 2"/>
+        <neighbor left="rock_wall 0" right="snow_to_other 6"/>
+        <neighbor left="rock_wall 1" right="rock_wall 1"/>
+        <neighbor left="rock_wall 1" right="snow_to_other 2"/>
+        <neighbor left="rock_wall 1" right="snow_to_other 6"/>
+        <neighbor left="rock_wall 1" right="temple_entrance 0"/>
+        <neighbor left="rock_wall 1" right="cave_exit 1"/>
+        <neighbor left="rock_wall 1" right="mine_exit 1"/>
+        <neighbor left="rock_wall 1" right="water_wall 2"/>
+        <neighbor left="rock_wall 1" right="fire 0"/>
+        <neighbor left="rock_wall 2" right="rock_wall 1"/>
+        <neighbor left="rock_wall 2" right="rock_wall 0"/>
+        <neighbor left="rock_wall 2" right="plant 2"/>
+        <neighbor left="rock_wall 2" right="snow_floor 0"/>
+        <neighbor left="rock_wall 2" right="snow_to_other 1"/>
+        <neighbor left="rock_wall 2" right="snow_to_other 5"/>
+        <neighbor left="rock_wall 2" right="cave_exit 1"/>
+        <neighbor left="rock_wall 2" right="mine_exit 1"/>
+        <neighbor left="rock_wall 2" right="temple_entrance 0"/>
+        <neighbor left="rock_wall 2" right="dead_tree 0"/>
+        <neighbor left="rock_wall 2" right="broken_tower 0"/>
+        <neighbor left="rock_wall 3" right="snow_floor 0"/>
+        <neighbor left="rock_wall 3" right="tree_stump 1"/>
+        <neighbor left="rock_wall 3" right="temple_entrance 0"/>
+        <neighbor left="rock_wall 3" right="cave_exit 1"/>
+        <neighbor left="rock_wall 3" right="mine_exit 1"/>
+        <neighbor left="rock_wall 3" right="water_wall 2"/>
+        <neighbor left="rock_wall 3" right="plant 3"/>
+        <neighbor left="rock_wall 3" right="snow_to_other 2"/>
+        <neighbor left="rock_wall 3" right="snow_to_other 6"/>
+
+        <neighbor left="snowman 0" right="snow_floor 0"/>
+        <neighbor left="snowman 0" right="fence 1"/>
+
+        <neighbor left="snowplains_rottentower 0" right="plant 2"/>
+        <neighbor left="snowplains_rottentower 0" right="water_wall 2"/>
+        <neighbor left="snowplains_rottentower 0" right="plant 0"/>
+        <neighbor left="snowplains_rottentower 0" right="dead_tree 0"/>
+        <neighbor left="snowplains_rottentower 0" right="snow_floor 0"/>
+        <neighbor left="snowplains_rottentower 0" right="snow_to_other 1"/>
+        <neighbor left="snowplains_rottentower 0" right="snow_to_other 5"/>
+
+        <neighbor left="temple_entrance 0" right="snow_floor 0"/>
+        <neighbor left="temple_entrance 0" right="fence 1"/>
+        <neighbor left="temple_entrance 0" right="snow_to_other 3"/>
+        <neighbor left="temple_entrance 0" right="snow_to_other 7"/>
+
+        <neighbor left="tent 0" right="water_wall 2"/>
+        <neighbor left="tent 0" right="snow_floor 0"/>
+        <neighbor left="tent 0" right="wood 0"/>
+        <neighbor left="tent 0" right="snow_to_other 1"/>
+        <neighbor left="tent 0" right="snow_to_other 2"/>
+        <neighbor left="tent 0" right="snow_to_other 5"/>
+        <neighbor left="tent 0" right="snow_to_other 6"/>
+
+        <neighbor left="wood 0" right="tree_stump 0"/>
+        <neighbor left="wood 0" right="tree_stump 1"/>
+        <neighbor left="wood 0" right="water_wall 2"/>
+        <neighbor left="wood 0" right="snow_to_other 1"/>
+        <neighbor left="wood 0" right="snow_to_other 5"/>
+        <neighbor left="wood 0" right="rock_wall 1"/>
+        <neighbor left="wood 0" right="snow_floor 0"/>
+        <neighbor left="wood 0" right="cabin_snow 0"/>
+        <neighbor left="wood 0" right="tent 0"/>
+
+        <neighbor left="tree_stump 0" right="wood 0"/>
+        <neighbor left="tree_stump 0" right="tree_stump 1"/>
+        <neighbor left="tree_stump 0" right="water_wall 2"/>
+        <neighbor left="tree_stump 0" right="fire 0"/>
+        <neighbor left="tree_stump 0" right="snow_to_other 1"/>
+        <neighbor left="tree_stump 0" right="snow_to_other 2"/>
+        <neighbor left="tree_stump 0" right="snow_to_other 5"/>
+        <neighbor left="tree_stump 0" right="snow_to_other 6"/>
+        <neighbor left="tree_stump 0" right="snow_floor 0"/>
+        <neighbor left="tree_stump 1" right="tree_stump 0"/>
+        <neighbor left="tree_stump 1" right="tree_stump 1"/>
+        <neighbor left="tree_stump 1" right="snow_to_other 1"/>
+        <neighbor left="tree_stump 1" right="snow_to_other 2"/>
+        <neighbor left="tree_stump 1" right="snow_to_other 5"/>
+        <neighbor left="tree_stump 1" right="snow_to_other 6"/>
+        <neighbor left="tree_stump 1" right="snow_floor 0"/>
+
+        <neighbor left="cave_exit 0" right="snow_to_other 1"/>
+        <neighbor left="cave_exit 0" right="snow_to_other 5"/>
+        <neighbor left="cave_exit 0" right="water_wall 0"/>
+        <neighbor left="cave_exit 0" right="water_wall 3"/>
+        <neighbor left="cave_exit 1" right="water_wall 2"/>
+        <neighbor left="cave_exit 1" right="mine_exit 1"/>
+<!--        <neighbor left="cave_exit 1" right="snow_to_other 1"/>-->
+<!--        <neighbor left="cave_exit 1" right="snow_to_other 2"/>-->
+<!--        <neighbor left="cave_exit 1" right="snow_to_other 5"/>-->
+<!--        <neighbor left="cave_exit 1" right="snow_to_other 6"/>-->
+
+        <neighbor left="mine_exit 0" right="snow_to_other 1"/>
+        <neighbor left="mine_exit 0" right="snow_to_other 5"/>
+        <neighbor left="mine_exit 0" right="water_wall 3"/>
+        <neighbor left="mine_exit 0" right="water_wall 0"/>
+        <neighbor left="mine_exit 1" right="cave_exit 1"/>
+        <neighbor left="mine_exit 1" right="water_wall 2"/>
+<!--    <neighbor left="mine_exit 1" right="snow_to_other 1"/>-->
+<!--    <neighbor left="mine_exit 1" right="snow_to_other 2"/>-->
+<!--    <neighbor left="mine_exit 1" right="snow_to_other 5"/>-->
+<!--    <neighbor left="mine_exit 1" right="snow_to_other 6"/>-->
+
+        <neighbor left="water_wall 0" right="water_wall 2"/>
+        <neighbor left="water_wall 0" right="cave_exit 1"/>
+        <neighbor left="water_wall 0" right="mine_exit 1"/>
+        <neighbor left="water_wall 1" right="water_wall 0"/>
+        <neighbor left="water_wall 1" right="water_wall 3"/>
+        <neighbor left="water_wall 1" right="snow_to_other 5"/>
+        <neighbor left="water_wall 1" right="fence 0"/>
+        <neighbor left="water_wall 2" right="water_wall 2"/>
+        <neighbor left="water_wall 2" right="cave_exit 1"/>
+        <neighbor left="water_wall 2" right="mine_exit 1"/>
+        <neighbor left="water_wall 3" right="water_wall 2"/>
+        <neighbor left="water_wall 3" right="cave_exit 1"/>
+        <neighbor left="water_wall 3" right="mine_exit 1"/>
+
+        <neighbor left="ice_bridge 0" right="ice_bridge 0"/>
+        <neighbor left="ice_bridge 0" right="snow_floor 0"/>
+        <neighbor left="ice_bridge 0" right="snow_to_other 3"/>
+        <neighbor left="ice_bridge 0" right="snow_to_other 7"/>
+        <neighbor left="ice_bridge 0" right="ice_bridge 1"/>
+        <neighbor left="ice_bridge 1" right="ice_bridge 1"/>
+        <neighbor left="ice_bridge 1" right="snow_floor 0"/>
+        <neighbor left="ice_bridge 1" right="snow_to_other 3"/>
+        <neighbor left="ice_bridge 1" right="snow_to_other 7"/>
+    </neighbors>
+    <subsets>
+        <subset name="">
+            <tile name=""/>
+            <tile name=""/>
+            <tile name=""/>
+
+        </subset>
+    </subsets>
+</set>
