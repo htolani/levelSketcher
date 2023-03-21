@@ -1,0 +1,7 @@
+cabin_snow 0, snow_to_other 0, rock_wall 0, plant 0, water_wall 0, mine_exit 0, snow_to_other 0, 
+snow_to_other 0, rock_wall 1, temple_entrance 0, rock_wall 1, mine_exit 0, water_wall 2, fence 0, 
+mine_exit 0, snow_floor 0, snow_to_other 0, water_wall 3, water_wall 2, water_wall 1, water_wall 2, 
+rock_wall 0, mine_exit 0, cave_exit 0, mine_exit 0, water_wall 3, water_wall 0, water_wall 3, 
+mine_exit 0, snow_to_other 0, rock_wall 1, water_wall 0, mine_exit 0, cave_exit 0, snow_floor 0, 
+water_wall 0, dead_tree 0, broken_tower 0, snow_to_other 0, rock_wall 2, rock_wall 1, rock_wall 1, 
+cave_exit 0, snow_to_other 0, rock_wall 3, rock_wall 0, cave_exit 0, rock_wall 0, snow_floor 0, 
