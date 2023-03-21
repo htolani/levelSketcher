@@ -1,11 +1,23 @@
+<!--
+NAME: allGenres.xml
+DESCRIPTION: This is the file defining system constraints in the form of Genre available and its associated Theme names.
+-->
+
 <samples>
-  <simpletiled name="Summer" size="20" textOutput="True"/>
-  <simpletiled name="Castle" size="50" textOutput="True"/>
-  <simpletiled name="Circuit" size="34" periodic="True" textOutput="True"/>
-  <simpletiled name="Knots" size="24" periodic="True" textOutput="True"/>
-  <simpletiled name="Rooms" size="30" textOutput="True"/>
-  <simpletiled name="Circles" size="24" textOutput="True"/>
-  <simpletiled name="FloorPlan" size="20" textOutput="True"/>
-  <simpletiled name="Haunted" size="34" textOutput="True"/>
-  <simpletiled name="Coins" size="34" textOutput="True"/>
+  <genres>
+      <genre name="platformer"/>
+      <genre name="puzzle"/>
+      <genre name="roguelike"/>
+  </genres>
+  <tileset>
+    <simpletiled name="Summer" genre="Platformer" size="20" textOutput="True"/>
+    <simpletiled name="Castle" genre="Puzzle" size="50" textOutput="True"/>
+    <simpletiled name="Circuit" genre="Puzzle" size="34" periodic="True" textOutput="True"/>
+    <simpletiled name="Knots" genre="Puzzle" size="24" periodic="True" textOutput="True"/>
+    <simpletiled name="Rooms" genre="Puzzle" size="30" textOutput="True"/>
+    <simpletiled name="Circles" genre="Puzzle" size="24" textOutput="True"/>
+    <simpletiled name="FloorPlan" genre="Puzzle" size="20" textOutput="True"/>
+    <simpletiled name="Haunted" genre="Platformer" size="34" textOutput="True"/>
+    <simpletiled name="Coins" genre="Platformer" size="34" textOutput="True"/>
+  </tileset>
 </samples>

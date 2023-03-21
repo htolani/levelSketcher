@@ -1,3 +1,9 @@
+<!--
+	SYMMETRY MATRIX:
+	180-degree rotational symmetry (T).
+	180-degree rotational and horizontal reflection symmetry (X).
+	180-degree rotational and vertical reflection symmetry (I).
+-->
 <set>
 	<tiles>
 		<tile name="b_half" symmetry="T"/>

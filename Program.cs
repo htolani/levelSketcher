@@ -1,6 +1,9 @@
-﻿// Copyright (C) 2016 Maxim Gumin, The MIT License (MIT)
+﻿/*
+NAME: Program.cs
+DESCRIPTION: This is the main file which runs post the project is ran.
+             Its takes user inputs and calls SimpleTiled Class for further processing.
+*/
 
-using System;
 using System.Xml.Linq;
 using System.Diagnostics;
 using Microsoft.Extensions.Hosting;
@@ -23,27 +26,27 @@ public static class Program
         //Checking if required args are passed
         if(args.Length == 2){ 
             bool isAllOkay = true;
+            bool foundGenre = false;
             args[0]= args[0].ToLower();
             args[1]= args[1].ToLower();
 
-            //Maintaining Genre based theme list
-            Dictionary<string, List<string>> genreTileSetCombination = new Dictionary<string, List<string>>();
-            genreTileSetCombination.Add("platformer", new List<string>{"summer", "haunted","castle","coins"});
-            genreTileSetCombination.Add("puzzle", new List<string>{"knots", "circuit"});
-            genreTileSetCombination.Add("roguelike", new List<string>{"floorplan"});
+            //Checking the total list of Genres
+            XDocument xdoc = XDocument.Load("allGenres.xml");
+            foreach (XElement xelem in xdoc.Root.Element("genres").Elements("genre")){
+                if(xelem.Get<string>("name").Contains(args[0])){
+                    foundGenre = true;
+                    break;
+                }
+            }
 
             //Checking if special characters are added in any of the args
             if (Regex.IsMatch(args[0], specialChars) || Regex.IsMatch(args[1], specialChars)) {
-                Console.WriteLine($"Argument '{ti.ToTitleCase(args[1])}' contains special characters.");
+                Console.WriteLine($"Argument contains special characters.");
                 isAllOkay = false;
-            }else if(!genreTileSetCombination.ContainsKey(args[0])){
+            }else if(!foundGenre){
                 //Checking if genre specified is present in the dataset
                 isAllOkay = false;
                 Console.WriteLine($"String '{args[0]}' is not in the list of genres.");
-            }else if(!genreTileSetCombination[args[0]].Contains(args[1])){
-                //Checking if the theme exists for the specified genre
-                isAllOkay = false;
-                Console.WriteLine($"String '{args[1]}' is not the part of the mentioned genre.");
             }
             
             //2 Args representing Genre name and image tileset combination passed to function for further processing
@@ -51,25 +54,11 @@ public static class Program
                 tileSpecificExecution(ti.ToTitleCase(args[0]),ti.ToTitleCase(args[1]));
             }
         }else{
-            Console.WriteLine("Insufficient Arguments. 2 Arguments Required: 1) Represting Genre 2)Representing TileSet");
+            Console.WriteLine("Insufficient Arguments. 2 Arguments Required: 1) Represting Genre 2) Representing TileSet");
         }
         
         //Used for starting localhost
         //CreateHostBuilder().Build().Run();    
-    }
-
-    //Method to call localhost
-    public static IHostBuilder CreateHostBuilder() =>
-    Host.CreateDefaultBuilder()
-        .ConfigureWebHostDefaults(webBuilder =>
-        {
-            webBuilder.UseStartup<HomeController>();
-            webBuilder.UseUrls("https://localhost:8080");
-        });
-
-    //Method called from the Action Listener when Genre is selected     
-    public static void tileSetExecution(String tileSelectedName){
-           Console.WriteLine("tileSelectedName :",tileSelectedName);
     }
 
     //This function is responsible for processing selected tileset combination  
@@ -79,15 +68,18 @@ public static class Program
         foreach (var file in folder.GetFiles()) file.Delete();
 
         Random random = new();
+        bool foundTileTheme = false;
         XDocument xdoc = XDocument.Load("allGenres.xml");
 
-        foreach (XElement xelem in xdoc.Root.Elements("simpletiled"))
+        foreach (XElement xelem in xdoc.Root.Element("tileset").Elements("simpletiled"))
         {
-            if(xelem.Get<string>("name") == tileSelected){
+            if(xelem.Get<string>("name") == tileSelected && xelem.Get<string>("genre")==genre){
+                foundTileTheme = true;
 
                 Model model;
                 string name = xelem.Get<string>("name");
-                Console.WriteLine($"< {name}");
+                Console.WriteLine($"Generating Level for Genre : {xelem.Get<string>("genre")}");
+                Console.WriteLine($"Generating Level for Theme : {name}");
 
                 bool isOverlapping = xelem.Name == "overlapping";
                 int size = xelem.Get("size", isOverlapping ? 48 : 24);
@@ -103,23 +95,43 @@ public static class Program
                 {
                     for (int k = 0; k < 10; k++)
                     {
-                        //Console.Write("> ");
                         int seed = random.Next();
                         bool success = model.Run(seed, xelem.Get("limit", -1));
                         if (success)
                         {
-                            //Console.WriteLine("DONE");
                             model.Save($"genreOutput/{name}{seed}.png");
-                            Console.WriteLine($"Generated Output Path : /genreOutput/{name}{seed}.png");
-                            if (model is SimpleTiledModel stmodel && xelem.Get("textOutput", false))
+                            Console.WriteLine($"Generated Level Output Path : /genreOutput/{name}{seed}.png");
+                            if (model is SimpleTiledModel stmodel && xelem.Get("textOutput", false)){ 
                                 System.IO.File.WriteAllText($"genreOutput/{name}{seed}.txt", stmodel.TextOutput());
+                                Console.WriteLine($"Generated Level Output's text file describing entropy calculations at each step: /genreOutput/{name}{seed}.txt");
+                            }
                             break;
                         }
-                        else Console.WriteLine("Found Contradiction");
+                        else Console.WriteLine("Found Contradiction in the generated image");
                     }
                 }
             }
         }
-        Console.WriteLine($"time = {sw.ElapsedMilliseconds}");
+
+        if(!foundTileTheme){
+            //Checking if the theme exists for the specified genre
+            Console.WriteLine($"String '{tileSelected}' is not the part of the mentioned genre.");
+        }
+
+        Console.WriteLine($"Total time taken = {sw.ElapsedMilliseconds}");
+    }
+
+    //Method to call localhost 
+    public static IHostBuilder CreateHostBuilder() =>
+    Host.CreateDefaultBuilder()
+        .ConfigureWebHostDefaults(webBuilder =>
+        {
+            webBuilder.UseStartup<HomeController>();
+            webBuilder.UseUrls("https://localhost:8080");
+        });
+
+    //Method called from the Action Listener when Genre is selected     
+    public static void tileSetExecution(String tileSelectedName){
+           Console.WriteLine("tileSelectedName :",tileSelectedName);
     }
 }

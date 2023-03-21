@@ -9,14 +9,12 @@ using System;
     {
         public IActionResult Index()
         {
-            Console.WriteLine("GOing to index");
             return View();
         }
 
         [HttpPost] 
         public IActionResult tileSetSelected(String tileSelected)
         {
-            Console.WriteLine("Hello World");
             Console.WriteLine($"< {tileSelected}");
             Program.tileSetExecution(tileSelected);
             return View();
@@ -24,7 +22,7 @@ using System;
 
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddControllersWithViews(); // Add this line
+            services.AddControllersWithViews(); 
         }
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)

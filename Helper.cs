@@ -1,6 +1,4 @@
-﻿// Copyright (C) 2016 Maxim Gumin, The MIT License (MIT)
-
-using System.Linq;
+﻿using System.Linq;
 using System.Xml.Linq;
 using System.ComponentModel;
 using System.Collections.Generic;
