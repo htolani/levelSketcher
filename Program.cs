@@ -69,10 +69,13 @@ public static class Program
 
         Random random = new();
         bool foundTileTheme = false;
+        //Getting the constraints file 
         XDocument xdoc = XDocument.Load("allGenres.xml");
 
+        //Running through theme/tilesets information
         foreach (XElement xelem in xdoc.Root.Element("tileset").Elements("simpletiled"))
         {
+            //Checking the tileset with same theme and genre mentioned in the arguments
             if(xelem.Get<string>("name") == tileSelected && xelem.Get<string>("genre")==genre){
                 foundTileTheme = true;
 
@@ -86,15 +89,18 @@ public static class Program
                 string heuristicString = xelem.Get<string>("heuristic");
                 var heuristic = heuristicString == "Scanline" ? Model.Heuristic.Scanline : (heuristicString == "MRV" ? Model.Heuristic.MRV : Model.Heuristic.Entropy);
                 
+                //Calling SimpleTiledModel for performing entropy based calculations
                 model = new SimpleTiledModel(xelem.Get<string>("name"), 
                 xelem.Get("width", size), xelem.Get("height", size), 
                 xelem.Get("periodic", false), xelem.Get("blackBackground", false), heuristic);
             
+                //Setting the output screenshots limit to default for 2
                 for (int i = 0; i < xelem.Get("screenshots", 2); i++)
                 {
                     for (int k = 0; k < 10; k++)
                     {
                         int seed = random.Next();
+                        //Checking for contradictions
                         bool success = model.Run(seed, xelem.Get("limit", -1));
                         if (success)
                         {

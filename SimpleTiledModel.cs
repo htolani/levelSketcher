@@ -1,6 +1,6 @@
 /*
 NAME: SimpleTiledModel.cs
-DESCRIPTION: This is the file where entropy based calculations are made for 
+DESCRIPTION: This is the file where entropy based calculations are made for tilesets.
 */
 using System;
 using System.Linq;
