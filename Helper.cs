@@ -36,7 +36,7 @@ static class Helper
         return a == null ? defaultT : (T)TypeDescriptor.GetConverter(typeof(T)).ConvertFromInvariantString(a.Value);
     }
 
-    //Used by Program Class
+    //Used by Program Class for enumerating along the tileset information from allGenres.xml file
     public static IEnumerable<XElement> Elements(this XElement xelement, params string[] names) => xelement.Elements().Where(e => names.Any(n => n == e.Name));
 }
 
