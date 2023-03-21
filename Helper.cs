@@ -1,4 +1,9 @@
-﻿using System.Linq;
+﻿/*
+NAME: Helper.cs
+DESCRIPTION: This is the file containing helper methods to be used by our Model.
+*/
+
+using System.Linq;
 using System.Xml.Linq;
 using System.ComponentModel;
 using System.Collections.Generic;
@@ -8,6 +13,7 @@ using SixLabors.ImageSharp.PixelFormats;
 
 static class Helper
 {
+    //Used by Model Class
     public static int Random(this double[] weights, double r)
     {
         double sum = 0;
@@ -23,22 +29,18 @@ static class Helper
         return 0;
     }
 
-    public static long ToPower(this int a, int n)
-    {
-        long product = 1;
-        for (int i = 0; i < n; i++) product *= a;
-        return product;
-    }
-
+    //Used by Program Class
     public static T Get<T>(this XElement xelem, string attribute, T defaultT = default)
     {
         XAttribute a = xelem.Attribute(attribute);
         return a == null ? defaultT : (T)TypeDescriptor.GetConverter(typeof(T)).ConvertFromInvariantString(a.Value);
     }
 
+    //Used by Program Class
     public static IEnumerable<XElement> Elements(this XElement xelement, params string[] names) => xelement.Elements().Where(e => names.Any(n => n == e.Name));
 }
 
+//Used by SimpleTiled Class
 static class BitmapHelper
 {
     public static (int[], int, int) LoadBitmap(string filename)
