@@ -24,7 +24,11 @@ abstract class Model
     //Maintaining counts of the sizes of stack and measured 
 
     protected int MX, MY, T, N;
-    //
+    //MX represents the width of the game level in (the number of) tiles.
+    //MY represents the height of the game level in (the number of) tiles.
+    //T represents the number of unique tiles in the tileset.
+    //N represents the size of the tileset that is used to generate the game level (NxN).
+
     protected bool periodic, ground;
     //periodic indicates whether the grid has periodic boundary conditions or not
     //ground specifies whether the wave should be grounded or not
@@ -195,7 +199,7 @@ abstract class Model
         return sumsOfOnes[0]>0;
     }
 
-    void Ban(int i, int t) //
+    void Ban(int i, int t) //Rejects a tile that will increase the entropy on being placed at the current location,  by setting all of its adjacency_relations elements to zero
     {   wave[i][t] = false;
 
         int[] rel = adjacency_relations[i][t];
@@ -212,7 +216,7 @@ abstract class Model
         tile_entropies[i] = Math.Log(sum) - weights_logWeights_sums_set[i] / sum;
     }
 
-    void Clear() //
+    void Clear() //Resets properties
     {   for (int i=0; i<wave.Length; i++)
         {   for (int t=0; t<T; t++)
             {   wave[i][t] = true;
